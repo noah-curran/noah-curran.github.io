@@ -11,3 +11,5 @@ css/epic.css
 css/posts/
 .ruby-version
 .ruby-gemset
+.vscode
+.bundle
