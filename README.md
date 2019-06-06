@@ -1,102 +1,72 @@
-[![Build Status](https://travis-ci.org/artsy/artsy.github.io.svg)](https://travis-ci.org/artsy/artsy.github.io)
+## My Stack Problems
 
-The Artsy OSS page and the blog runs on top of a default jekyll install. If you would like an overview of jekyll their [website rocks](http://jekyllrb.com/).
+> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
+> and the search posts using [Super Search](https://github.com/chinchang/super-search)
 
-## Setup
+### Demo
+* [https://agusmakmun.github.io](https://agusmakmun.github.io)
+
+#### Features
+
+* Sitemap and XML Feed
+* Pagination in homepage
+* Posts under category
+* Realtime Search Posts _(title & description)_ by query.
+* Related Posts
+* Highlight pre
+* Next & Previous Post
+* Disqus comment
+* Projects page & Detail Project page
+* Share on social media
+* Google analytics
+* HTML Minify _(Compress HTML)_ using [Jekyll Compress HTML](https://github.com/penibelst/jekyll-compress-html)
+
+#### Screenshot
+
+![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
+
+### Install & Configuration
+
+1. Fork this repository
+2. Edit site settings inside file of `_config.yml`
+3. Edit your projects at file of `projects.md`, `_data/projects.json` and inside path of `_project/` _(for detail project)_.
+4. Edit about yourself inside file of `about.md`
+
+### How to Use?
+
+**a. Add new Category**
+
+All categories saved inside path of `category/`, you can see the existed categories.
+
+**b. Add new Posts**
+
+* All posts bassed on markdown syntax _(please googling)_. allowed extensions is `*.markdown` or `*.md`.
+* This files can found at the path of `_posts/`.
+* and the name of files are following `<date:%Y-%m-%d>-<slug>.<extension>`, for example:
 
 ```
-  git clone git@github.com:artsy/artsy.github.io.git
-  cd artsy.github.io
-  bundle exec rake bootstrap
-  bundle exec rake build
+2013-09-23-welcome-to-jekyll.md
+
+# or
+
+2013-09-23-welcome-to-jekyll.markdown
 ```
 
-## Running the OSS Site / Blog locally
-
-Running `rake serve` will _not_ generate category pages. They take a _long_ time to generate. No one wants that when working on the site.
+Inside the file of it,
 
 ```
-  bundle exec rake serve
-```
-
-Categories are generated when the ENV var `PRODUCTION` = `"YES"`.
-
-## Deploying
-
-Travis CI will automatically deploy when new commits are pushed to the `source` branch, so you should not need to deploy from your local computer. However, if you need to deploy locally, the `rake deploy` command is available.
-
-## Adding an Author
-
-Authors are key-value stored, so you will need to give yourself a key inside [_config.yml](_config.yml) - for example:
-
-```yaml
-  joey:
-    name: Joey Aghion
-    github: joeyAghion
-    twitter: joeyAghion
-    site: http://joey.aghion.com
-```
-
-Everything but name is optional.
-
-## Authoring an Article
-
-Note: we now have some templates to help get you started writing a blog post. Check out the [`Post-Templates` directory](Post-Templates).
-
-TLDR
-_To generate a new post, create a new file in the `_posts` directory. Be sure to add your name as the author of the post and include several categories to file the post under. Here is a sample header YAML:_
-
-Note: categories are aggregated from the individual posts, so adding one is as
-easy as adding it to your post!
-
-```yaml
 ---
-layout: post
-title: "Responsive Layouts with CSS3"
-date: 2012-01-17 11:03
-comments: true
-author: Matt McNierney
-github-url: https://www.github.com/mmcnierney14
-twitter-url: http://twitter.com/mmcnierney
-blog-url: http://mattmcnierney.wordpress.com
-categories: [Design, CSS, HTML5]
+layout: post                          # (require) default post layout
+title: "Your Title"                   # (require) a string title
+date: 2016-04-20 19:51:02 +0700       # (require) a post date
+categories: [python, django]          # (custom) some categories, but makesure these categories already exists inside path of `category/`
+tags: [foo, bar]                      # (custom) tags only for meta `property="article:tag"`
+image: Broadcast_Mail.png             # (custom) image only for meta `property="og:image"`, save your image inside path of `static/img/_posts`
 ---
+
+# your content post with markdown syntax goes here...
 ```
 
-More info can be found in the [Jekyll docs](http://jekyllrb.com/docs/posts/).
+### Contributing
 
-When you have authored an article, `git add` and `git commit` it, then push to a named branch with `git push origin [branch]`, and create a pull request to the `source` branch, it will be deployed to the site by travis when merged.
-
-## Enabling Comments
-
-Comments for articles are managed with [Issues](https://github.com/artsy/artsy.github.io/issues) in this GitHub repository.
-
-#### [Create an issue](https://github.com/artsy/artsy.github.io/issues/new) for the article
-
-Quote the opening paragraph(s) of the post as the body of the issue, and name it something like "Comments: My Fantastic New Post". 
-
-#### Add the `Comment Thread` label to the issue
-
-#### Attach the issue to your article
-
-Copy the created issue ID; add it to the frontmatter YAML of your post, as the `comment_id` attribute:
-
-`comment_id: 1234`
-
-## After Deploying an Article
-
-Every article on our blog needs one more thing: a snappy tweet! You can ask Ash or Orta to do this for you, but you're also welcome to log into the [@ArtsyOpenSource](https://twitter.com/ArtsyOpenSource) twitter account and tweet yourself (credentials are in the Engineering 1Password vault). Tweets usually follow the following format:
-
-```
-[pithy observation] [description of problem] [@ the article author's twitter handle]
-
-📝 [link to blog post]
-💻 [link to GitHub repo, if applicable]
-📷 [attach a screenshot of the first few paragraphs of the post]
-```
-
-We attach screenshots of the post because tweets with images get more traction. But! Images aren't accessible to screen readers, so make sure to use the twitter.com web interface and add a description to the image when posting:
-
-> Screenshot of the title and first two paragraphs of the linked-to blog post.
-
-You can look at previous tweets from our account to get a feel for these. If you'd like help, just ask in Slack.
+Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!
