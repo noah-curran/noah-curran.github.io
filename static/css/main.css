@@ -1,3 +1,10 @@
+.site-title {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -1px;
+}
+
 body {
   font-family: "Roboto Condensed", Arial, sans-serif;
   background: url("/static/img/subtle_dots.png");
@@ -49,6 +56,7 @@ a:hover {
 .sidebar-nav li {
   margin: 0;
   list-style: none;
+  font-size: 18pt;
 }
 .sidebar-nav li::before {
   content: "»";
@@ -94,6 +102,7 @@ div.col-sm-3 strong {
 }
 div.col-sm-3 div.profile-about {
   margin-top: 10px;
+  font-size: 20px;
   color: #8C8C8C;
 }
 div.col-sm-3 img.profile-avatar {
@@ -104,6 +113,18 @@ div.col-sm-3 img.profile-avatar {
   -o-border-radius: 150px;
   margin-left: auto;
   margin-right: auto;
+}
+div.col-sm-3 h1.author-name {
+  font-size: 36px;
+}
+div.col-sm-3 hr.rule {
+  border-bottom: 1px solid #EFEFEF;
+}
+div.col-sm-3 a.about {
+  font-size: 20px
+}
+div.col-sm-3 strong.nav {
+  font-size: 24px
 }
 
 /* Pagination */

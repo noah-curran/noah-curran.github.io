@@ -116,7 +116,7 @@ layout: compress
     <div class="container">
       <div class="col-sm-3">
         <div class="fixed-condition">
-          <a href="/"><img class="profile-avatar" src="{{ site.avatar_url }}" height="75px" width="75px" /></a>
+          <a href="/"><img class="profile-avatar" src="{{ site.avatar_url }}" height="150px" width="150px" /></a>
           <h1 class="author-name">{{ site.author }}</h1>
           {% if site.about %}
             <div class="profile-about">
@@ -134,10 +134,10 @@ layout: compress
             <input type="text" placeholder="Type to search..." class="search__input form-control" id="js-search__input">
             <ul class="search__results" id="js-search__results"></ul>
           </div>
-          <hr />
+          <hr class="rule"/>
           <ul class="sidebar-nav">
-            <strong>Navigation</strong>
-            <li><a href="/">Home</a></li>
+            <strong class="nav">Navigation</strong>
+            <li><a class="about" href="/">Home</a></li>
             {% for i in site.urls %}
               <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
             {% endfor %}
