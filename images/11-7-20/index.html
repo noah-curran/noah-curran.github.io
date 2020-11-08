@@ -4,14 +4,14 @@
       (async () => {
         const response = await fetch('https://api.github.com/repos/noah-curran/noah-curran.github.io/contents/images/11-7-20');
         const data = await response.json();
-        let htmlString = '<ul>';
+        let htmlString = '';
         for (let file of data) {
           if (file.path.split('.').slice(-1)[0] === 'jpg') {
             let path = file.path.replace('images/11-7-20/', '');
-            htmlString += `<li><a href="${path}">${file.name}</a></li>`;
+            htmlString += `<img src="${path}" style="height:75%;">`
+            htmlString += `<p><a href="${path}">${file.name}</a></p>`;
           }
         }
-        htmlString += '</ul>';
         document.getElementsByTagName('body')[0].innerHTML = htmlString;
       })()
     </script>
