@@ -6,7 +6,10 @@
         const data = await response.json();
         let htmlString = '<ul>';
         for (let file of data) {
-          htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
+          if (file.path.split('.').slice(-1)[0] === 'jpg') {
+            let path = file.path.replace('images/11-7-20/', '');
+            htmlString += `<li><a href="${path}">${file.name}</a></li>`;
+          }
         }
         htmlString += '</ul>';
         document.getElementsByTagName('body')[0].innerHTML = htmlString;
