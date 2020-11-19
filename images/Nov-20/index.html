@@ -13,7 +13,7 @@
         for (let file of data) {
           if (file.path.split('.').slice(-1)[0] === 'jpg') {
             let path = file.path.replace('images/Nov-20/', '');
-            htmlString += `<img src="${path}" style="height:75%;">`
+            htmlString += `<img src="${path}" style="width:75%;">`
             htmlString += `<p><a href="${path}">${file.name}</a></p>`;
           }
         }
