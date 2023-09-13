@@ -19,7 +19,7 @@ I decided to pick it back up. This list is to keep track of what I've read.
 #### 2023
 
 <ul>
-{% include image.html title="Season of Storm (The Witcher Short Story Collection)" author="Andrzej Sapkowski" %}
+{% include tooltip.html title="Season of Storm (The Witcher Short Story Collection)" author="Andrzej Sapkowski" %}
 <!-- - The Lady of the Lake (The Witcher: Book 6)
 - The Tower of Swallow (The Witcher: Book 5)
 - Baptism of Fire (The Witcher: Book 4)
