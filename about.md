@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-{% include image.html url="/images/ProfilePic.png" caption="This is me!" width=300 align="right" %}
+{% include image.html url="/images/ProfilePic.JPG" caption="This is me!" width=300 align="right" %}
 
 I'm a fourth year PhD student at the University of Michigan, where I study semi-autonomous vehicle
 safety, security, and reliability in the <a href="https://rtcl.eecs.umich.edu/rtclweb/">Real-Time Computing Lab</a>.
