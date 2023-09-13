@@ -2,11 +2,14 @@
 title: Noah T. Curran
 email: nt[last name]@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
+  This is the website of Noah T. Curran, a PhD Candidate at the
+  University of Michigan.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://ntcurran.com" # the base hostname & protocol for your site
+footnote_description: >
   The template for this site was generously provided by Steven Miller
   on GitHub. If you're interested, you should check it out
   <a href="https://github.com/svmiller/steve-ngvb-jekyll-template">here</a>.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://ntcurran.com" # the base hostname & protocol for your site
 linkedin_username: noah-curran
 github_username:  noah-curran
 
