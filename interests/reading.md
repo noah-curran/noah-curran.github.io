@@ -18,15 +18,15 @@ I decided to pick it back up. This list is to keep track of what I've read.
 
 #### 2023
 
-<ul>
-{% include tooltip.html title="Season of Storm (The Witcher Short Story Collection)" author="Andrzej Sapkowski" %}
-<!-- - The Lady of the Lake (The Witcher: Book 6)
+<!-- <ul> -->
+- {% include tooltip.html title="Season of Storm (The Witcher Short Story Collection)" author="Andrzej Sapkowski" %}
+- The Lady of the Lake (The Witcher: Book 6)
 - The Tower of Swallow (The Witcher: Book 5)
 - Baptism of Fire (The Witcher: Book 4)
 - Time of Contempt (The Witcher: Book 3)
 - Blood of the Elves (The Witcher: Book 2)
-- The Last Wish (The Witcher: Book 1) -->
-</ul>
+- The Last Wish (The Witcher: Book 1)
+<!-- </ul> -->
 
 #### 2022
 
