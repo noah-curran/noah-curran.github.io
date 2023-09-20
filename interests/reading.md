@@ -44,6 +44,7 @@ I decided to pick it back up. This list is to keep track of what I've read.
 - {% include tooltip.html title="Sword of Destiny (The Witcher Short Story Collection)" author="Andrzej Sapkowski" %}
 - {% include tooltip.html title="Pet Sematary" author="Stephen King" %}
 - {% include tooltip.html title="Salem's Lot" author="Stephen King" %}
+- {% include tooltip.html title="The Sun Collective" author="Charles Baxter" %}
 
 #### 2021
 
