@@ -27,6 +27,7 @@ I decided to pick it back up. This list is to keep track of what I've read.
 
 #### 2023
 
+- {% include tooltip.html title="The Slow Regard of Silent Things (The Kingkiller Chronicle: Novella)" author="Patrick Rothfuss" %}
 - {% include tooltip.html title="Stardust" author="Neil Gaiman" %}
 - {% include tooltip.html title="Assassin's Apprentice (Farseer Trilogy: Book 1)" author="Robin Hobb" %}
 - {% include tooltip.html title="The Name of the Wind (The Kingkiller Chronicle: Book 1)" author="Patrick Rothfuss" %}
