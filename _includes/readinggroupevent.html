@@ -1,18 +1,22 @@
 <p>
-    <span class="readingspacing">
-        <b>{{include.date}}</b>
-    </span>
-    
-    <u>Discussion Leader</u>: {{include.volunteer}}
-</p>
-<p>
-    <span class="readingspacing"></span>
-    <i>{{include.title}}</i>
-</p>
-<p>
-    <span class="readingspacing"></span>
-    [<a href="{{include.url}}">URL</a>]
-    {% if include.supp != null %}
-    [<a href="{{include.supp}}">Supplement</a>]
-    {% endif %}
+    <div>
+        <span class="readingspacing">
+            <b>{{include.date}}</b>
+        </span>
+        
+        <u>Discussion Leader</u>: {{include.volunteer}}
+    </div>
+
+    <div>
+        <span class="readingspacing"></span>
+        <i>{{include.title}}</i>
+    </div>
+
+    <div>
+        <span class="readingspacing"></span>
+        [<a href="{{include.url}}">URL</a>]
+        {% if include.supp != null %}
+        [<a href="{{include.supp}}">Supplement</a>]
+        {% endif %}
+    </div>
 </p>
