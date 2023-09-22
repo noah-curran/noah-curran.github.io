@@ -26,7 +26,7 @@ To guide this question, take a look to the figure on the right. During the proce
 
 Fridays from 12:30 PM to 1:30 PM in the CSE Grad Lounge (until we can get a real conference room booked).
 
-Join the MCommunity group here to receive emails: https://mcommunity.umich.edu/group/
+Join the MCommunity group here to receive emails: <https://mcommunity.umich.edu/group/AV%20Safety%20Reading%20Group>
 
 <!-- ### How Can I Volunteer?
 
