@@ -8,9 +8,9 @@ Alongside [Ryan Feng](http://www-personal.umich.edu/~rtfeng/), I am co-organizin
 
 # What is AV "safety" and "security"?
 
-{% include image.html url="/assets/images/avsafetysec.jpg" caption="Major components to AV safety and security." width=300 align="right" %}
+{% include image.html url="/assets/images/avsafesec.pdf" caption="Major components to AV safety and security." width=300 align="right" %}
 
-To make the answer to this question more clear, take a look at the figure to the right.
+To guide this question, take a look to the figure on the right. During the process of AV operation there are five generic components that we envision having important safety/security concerns that the literature focuses on.
 
 # Goals and Expectations
 
@@ -34,7 +34,7 @@ Come to one of our meetings -->
 
 # Upcoming Schedule
 
-{% include readinggroupevent.html date="Oct. 6th" volunteer="Minkyoung Cho" title="" url="" %}
+{% include readinggroupevent.html date="Oct. 6th" volunteer="Minkyoung Cho" title="TBD" url="" %}
 {% include readinggroupevent.html date="Sept. 29th" volunteer="Liangkai Liu" title="D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles" url="https://dl.acm.org/doi/10.1145/3492321.3519576" supp="https://arxiv.org/pdf/2302.01568.pdf" %}
 
 # Paper List
@@ -47,4 +47,4 @@ Come to one of our meetings -->
 
 #### &#9315; Robustness of Control/Decision Algorithms
 
-###### &#9316; Environmental Constraints/Impact
+#### &#9316; Environmental Constraints/Impact
