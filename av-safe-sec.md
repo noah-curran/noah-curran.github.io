@@ -8,7 +8,7 @@ Alongside [Ryan Feng](http://www-personal.umich.edu/~rtfeng/), I am co-organizin
 
 # What is AV "safety" and "security"?
 
-{% include image.html url="/assets/images/avsafesec.pdf" caption="Major components to AV safety and security." width=300 align="right" %}
+{% include image.html url="/assets/images/avsafesec.jpg" caption="Major components to AV safety and security." width=300 align="right" %}
 
 To guide this question, take a look to the figure on the right. During the process of AV operation there are five generic components that we envision having important safety/security concerns that the literature focuses on.
 
