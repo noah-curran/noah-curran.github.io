@@ -1,0 +1,13 @@
+<p>
+    <span class="readingspacing">
+        <b>{{include.date}}</b>:
+    </span>
+    <span class="readingspacing">
+        {{include.volunteer}},
+    </span>
+    <i>{{include.title}}</i>
+    [<a href="{{include.url}}">URL</a>]
+    {% if include.supp != null %}
+    [<a href="{{include.supp}}">Supplement</a>]
+    {% endif %}
+</p>
