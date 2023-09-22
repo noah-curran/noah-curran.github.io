@@ -12,7 +12,7 @@ Alongside [Ryan Feng](http://www-personal.umich.edu/~rtfeng/), I am co-organizin
 
 To make the answer to this question more clear, take a look at the figure to the right.
 
-## Goals and Expectations
+# Goals and Expectations
 
 1. This reading group will focus more on the discussion of the chosen papers, so we expect each attendee to read/skim the paper enough to have a basic understanding.
 
@@ -22,7 +22,7 @@ To make the answer to this question more clear, take a look at the figure to the
 
 4. Finally, the primary goal of this reading group is to gain exposure to a wide range of topics related to AV safety and security. If an interesting paper is not strictly covered by our above definition yet seems related, we encourage the volunteer to introduce the paper. It may be beneficial to everyone to see something outside of the norm.
 
-## When? Where? Email List?
+# When? Where? Email List?
 
 Fridays from 12:30 PM to 1:30 PM in the CSE Grad Lounge (until we can get a real conference room booked).
 
@@ -32,19 +32,19 @@ Join the MCommunity group here to receive emails: https://mcommunity.umich.edu/g
 
 Come to one of our meetings -->
 
-## Upcoming Schedule
+# Upcoming Schedule
 
 {% include readinggroupevent.html date="Oct. 6th" volunteer="Minkyoung Cho" title="" url="" %}
 {% include readinggroupevent.html date="Sept. 29th" volunteer="Liangkai Liu" title="D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles" url="https://dl.acm.org/doi/10.1145/3492321.3519576" supp="https://arxiv.org/pdf/2302.01568.pdf" %}
 
-## Paper List
+# Paper List
 
-### &#9312; Environmental Privacy
+#### &#9312; Environmental Privacy
 
 #### &#9313; Sensor System Attacks/Failures
 
-##### &#9314; Computing Environment Integrity
+#### &#9314; Computing Environment Integrity
 
-###### &#9315; Robustness of Control/Decision Algorithms
+#### &#9315; Robustness of Control/Decision Algorithms
 
 ###### &#9316; Environmental Constraints/Impact
