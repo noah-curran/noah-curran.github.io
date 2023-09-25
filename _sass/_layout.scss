@@ -180,7 +180,6 @@
 }
 
 h1 /* .post-title */ {
-    font-size: 24px;
     letter-spacing: -1px;
     line-height: 1;
 		font-family: 'Titillium Web', sans-serif;
@@ -193,6 +192,18 @@ h1 /* .post-title */ {
 
 .post-content {
     margin-bottom: $spacing-unit;
+
+    h1 /* .post-title */ {
+        font-size: 24px;
+        letter-spacing: -1px;
+        line-height: 1;
+            font-family: 'Titillium Web', sans-serif;
+            color: $michigan-navy;
+    
+        @include media-query($on-laptop) {
+    /*        font-size: 36px; */
+        }
+    }
 
     h2 {
 		font-family: 'Titillium Web', sans-serif;
