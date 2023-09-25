@@ -65,7 +65,7 @@ Come to one of our meetings -->
 
 #### &#9312; Environmental Privacy
 
-{% include readinggrouppaper.html authors="Chulin Xie, Zhong Cao, Yunhui Long, Diange Yang, Ding Zhao, and Bo Li" title="Privacy of Autonomous Vehicles: Risks, Protection Methods, and Future Directions" pubvenue="arXiv:2209.04022" year="2022" url="https://arxiv.org/abs/2209.04022" %}
+{% include readinggrouppaper.html authors="Chulin Xie, et al" title="Privacy of Autonomous Vehicles: Risks, Protection Methods, and Future Directions" pubvenue="arXiv:2209.04022" year="2022" url="https://arxiv.org/abs/2209.04022" %}
 
 {% include readinggrouppaper.html authors="Dorothy J. Glancy" title="Privacy in Autonomous Vehicles" pubvenue="Santa Clara Law Review" year="2012" url="https://digitalcommons.law.scu.edu/lawreview/vol52/iss4/3/" %}
 
