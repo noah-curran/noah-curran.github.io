@@ -9,18 +9,22 @@
 
     <div>
         <span class="readingspacing"></span>
-        {% if include.title != "TBD" %}
-            {{include.authors}}. <i>{{include.title}}</i>. {{include.pubvenue}}, {{include.year}}.
-        {% else %}
-            <div>{{include.title}}</div>
-        {% endif %}
+        <span class="readingpaperspacing">
+            {% if include.title != "TBD" %}
+                {{include.authors}}. <i>{{include.title}}</i>. {{include.pubvenue}}, {{include.year}}.
+            {% else %}
+                <div>{{include.title}}</div>
+            {% endif %}
+        </span>
     </div>
 
     <div>
         <span class="readingspacing"></span>
-        [<a href="{{include.url}}">URL</a>]
-        {% if include.supp != null %}
-        [<a href="{{include.supp}}">Supplement</a>]
-        {% endif %}
+        <span class="readingpaperspacing">
+            [<a href="{{include.url}}">URL</a>]
+            {% if include.supp != null %}
+            [<a href="{{include.supp}}">Supplement</a>]
+            {% endif %}
+        </span>
     </div>
 </p>
