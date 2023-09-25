@@ -61,11 +61,13 @@ Come to one of our meetings -->
 
 # Paper List
 
+*Some papers may fit into multiple categories. We place them in the main area we feel their contributions focus on.*
+
 #### &#9312; Environmental Privacy
 
 {% include readinggrouppaper.html authors="Chulin Xie, Zhong Cao, Yunhui Long, Diange Yang, Ding Zhao, and Bo Li" title="Privacy of Autonomous Vehicles: Risks, Protection Methods, and Future Directions" pubvenue="arXiv:2209.04022" year="2022" url="https://arxiv.org/abs/2209.04022" supp="" %}
 
-{% include readinggrouppaper.html authors="Dorothy J. Glancy" title="Privacy in Autonomous Vehicles" pubvenue="Santa Clara Law Review" year="2012" url="" supp="" %}
+{% include readinggrouppaper.html authors="Dorothy J. Glancy" title="Privacy in Autonomous Vehicles" pubvenue="Santa Clara Law Review" year="2012" url="https://digitalcommons.law.scu.edu/lawreview/vol52/iss4/3/" supp="" %}
 
 {% include readinggrouppaper.html authors="Luis F. Alvarez León" title="Eyes on the Road: Surveillance Logics in the Autonomous Vehicle Economy" pubvenue="Surveillance & Society" year="2019" url="https://ojs.library.queensu.ca/index.php/surveillance-and-society/article/view/12932" supp="" %}
 
@@ -73,9 +75,7 @@ Come to one of our meetings -->
 
 {% include readinggrouppaper.html authors="Yulong Cao, et al" title="You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/cao" supp="" %}
 
-{% include readinggrouppaper.html authors="Qifan Xiao, et al" title="Exorcising "Wraith": Protecting LiDAR-based Object Detector in Automated Driving System from Appearing Attacks" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/xiao-qifan" supp="" %}
-
-{% include readinggrouppaper.html authors="" title="" pubvenue="" year="" url="" supp="" %}
+{% include readinggrouppaper.html authors="Qifan Xiao, et al" title="Exorcising 'Wraith': Protecting LiDAR-based Object Detector in Automated Driving System from Appearing Attacks" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/xiao-qifan" supp="" %}
 
 #### &#9314; Computing Environment Integrity
 
