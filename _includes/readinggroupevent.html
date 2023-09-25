@@ -1,27 +1,27 @@
 <p>
-    <div>
-        <div class="readingspacing">
+    <div class="readingpaperspacing">
+        <span class="readingspacing">
             <b>{{include.date}}</b>
-        </div>
+        </span>
         <u>Discussion Leader</u>: {{include.volunteer}}
     </div>
-    <div>
-        <div class="readingspacing"></div>
-        <div class="readingpaperspacing">
+    <div class="readingpaperspacing">
+        <span class="readingspacing"></span>
+        <span>
             {% if include.title != "TBD" %}
                 {{include.authors}}. <i>{{include.title}}</i>. {{include.pubvenue}}, {{include.year}}.
             {% else %}
                 <i>{{include.title}}</i>
             {% endif %}
-        </div>
+        </span>
     </div>
-    <div>
-        <div class="readingspacing"></div>
-        <div class="readingpaperspacing">
+    <div class="readingpaperspacing">
+        <span class="readingspacing"></span>
+        <span>
             [<a href="{{include.url}}">URL</a>]
             {% if include.supp != null %}
             [<a href="{{include.supp}}">Supplement</a>]
             {% endif %}
-        </div>
+        </span>
     </div>
 </p>
