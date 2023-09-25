@@ -65,42 +65,42 @@ Come to one of our meetings -->
 
 #### &#9312; Environmental Privacy
 
-{% include readinggrouppaper.html authors="Chulin Xie, Zhong Cao, Yunhui Long, Diange Yang, Ding Zhao, and Bo Li" title="Privacy of Autonomous Vehicles: Risks, Protection Methods, and Future Directions" pubvenue="arXiv:2209.04022" year="2022" url="https://arxiv.org/abs/2209.04022" supp="" %}
+{% include readinggrouppaper.html authors="Chulin Xie, Zhong Cao, Yunhui Long, Diange Yang, Ding Zhao, and Bo Li" title="Privacy of Autonomous Vehicles: Risks, Protection Methods, and Future Directions" pubvenue="arXiv:2209.04022" year="2022" url="https://arxiv.org/abs/2209.04022" %}
 
-{% include readinggrouppaper.html authors="Dorothy J. Glancy" title="Privacy in Autonomous Vehicles" pubvenue="Santa Clara Law Review" year="2012" url="https://digitalcommons.law.scu.edu/lawreview/vol52/iss4/3/" supp="" %}
+{% include readinggrouppaper.html authors="Dorothy J. Glancy" title="Privacy in Autonomous Vehicles" pubvenue="Santa Clara Law Review" year="2012" url="https://digitalcommons.law.scu.edu/lawreview/vol52/iss4/3/" %}
 
-{% include readinggrouppaper.html authors="Luis F. Alvarez León" title="Eyes on the Road: Surveillance Logics in the Autonomous Vehicle Economy" pubvenue="Surveillance & Society" year="2019" url="https://ojs.library.queensu.ca/index.php/surveillance-and-society/article/view/12932" supp="" %}
+{% include readinggrouppaper.html authors="Luis F. Alvarez León" title="Eyes on the Road: Surveillance Logics in the Autonomous Vehicle Economy" pubvenue="Surveillance & Society" year="2019" url="https://ojs.library.queensu.ca/index.php/surveillance-and-society/article/view/12932" %}
 
 #### &#9313; Sensor System Attacks/Failures
 
-{% include readinggrouppaper.html authors="Yulong Cao, et al" title="You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/cao" supp="" %}
+{% include readinggrouppaper.html authors="Yulong Cao, et al" title="You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/cao" %}
 
-{% include readinggrouppaper.html authors="Qifan Xiao, et al" title="Exorcising 'Wraith': Protecting LiDAR-based Object Detector in Automated Driving System from Appearing Attacks" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/xiao-qifan" supp="" %}
+{% include readinggrouppaper.html authors="Qifan Xiao, et al" title="Exorcising 'Wraith': Protecting LiDAR-based Object Detector in Automated Driving System from Appearing Attacks" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/xiao-qifan" %}
 
 #### &#9314; Computing Environment Integrity
 
-{% include readinggrouppaper.html authors="Hyungsub Kim, et al" title="PGFUZZ: Policy-Guided Fuzzing for Robotic Vehicles" pubvenue="in the Proceedings of the Network and Distributed Systems Security Symposium 2021 (NDSS '21)" year="2021" url="https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6A-1_24096_paper.pdf" supp="" %}
+{% include readinggrouppaper.html authors="Hyungsub Kim, et al" title="PGFUZZ: Policy-Guided Fuzzing for Robotic Vehicles" pubvenue="in the Proceedings of the Network and Distributed Systems Security Symposium 2021 (NDSS '21)" year="2021" url="https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6A-1_24096_paper.pdf" %}
 
-{% include readinggrouppaper.html authors="Yunpeng Luo, et al" title="Poster: Towards Complete Computation Graph Generation for Security Assessment of ROS Applications" pubvenue="in the Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security (CCS '22)" year="2022" url="https://dl.acm.org/doi/abs/10.1145/3548606.3563540" supp="" %}
+{% include readinggrouppaper.html authors="Yunpeng Luo, et al" title="Poster: Towards Complete Computation Graph Generation for Security Assessment of ROS Applications" pubvenue="in the Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security (CCS '22)" year="2022" url="https://dl.acm.org/doi/abs/10.1145/3548606.3563540" %}
 
-{% include readinggrouppaper.html authors="Bernhard Dieber, et al" title="Application-Level Security for ROS-Based Applications" pubvenue="in the Proceedings of the 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '16)" year="2016" url="https://ieeexplore.ieee.org/abstract/document/7759659" supp="" %}
+{% include readinggrouppaper.html authors="Bernhard Dieber, et al" title="Application-Level Security for ROS-Based Applications" pubvenue="in the Proceedings of the 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '16)" year="2016" url="https://ieeexplore.ieee.org/abstract/document/7759659" %}
 
-{% include readinggrouppaper.html authors="R. Spencer Hallyburton, et al" title="Partial-Information, Longitudinal Cyber Attacks on LiDAR in Autonomous Vehicles" pubvenue="arXiv:2303.03470" year="2023" url="https://arxiv.org/abs/2303.03470" supp="" %}
+{% include readinggrouppaper.html authors="R. Spencer Hallyburton, et al" title="Partial-Information, Longitudinal Cyber Attacks on LiDAR in Autonomous Vehicles" pubvenue="arXiv:2303.03470" year="2023" url="https://arxiv.org/abs/2303.03470" %}
 
 #### &#9315; Robustness of Control/Decision Algorithms
 
-{% include readinggrouppaper.html authors="Maximilian Jaritz, et al" title="xMUDA: Cross-Modal Unsupervised Domain Adaptation for 3D Semantic Segmentation" pubvenue="in the Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR '20)" year="2020" url="https://openaccess.thecvf.com/content_CVPR_2020/html/Jaritz_xMUDA_Cross-Modal_Unsupervised_Domain_Adaptation_for_3D_Semantic_Segmentation_CVPR_2020_paper.html" supp="" %}
+{% include readinggrouppaper.html authors="Maximilian Jaritz, et al" title="xMUDA: Cross-Modal Unsupervised Domain Adaptation for 3D Semantic Segmentation" pubvenue="in the Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR '20)" year="2020" url="https://openaccess.thecvf.com/content_CVPR_2020/html/Jaritz_xMUDA_Cross-Modal_Unsupervised_Domain_Adaptation_for_3D_Semantic_Segmentation_CVPR_2020_paper.html" %}
 
-{% include readinggrouppaper.html authors=Abhinav Valada, et al" title="AdapNet: Adaptive Semantic Segmentation in Adverse Environmental Conditions" pubvenue="in the Proceedings of the 2017 IEEE International Conference on Robotics and Automation (ICRA '17)" year="2017" url="https://ieeexplore.ieee.org/abstract/document/7989540" supp="" %}
+{% include readinggrouppaper.html authors="Abhinav Valada, et al" title="AdapNet: Adaptive Semantic Segmentation in Adverse Environmental Conditions" pubvenue="in the Proceedings of the 2017 IEEE International Conference on Robotics and Automation (ICRA '17)" year="2017" url="https://ieeexplore.ieee.org/abstract/document/7989540" %}
 
-{% include readinggrouppaper.html authors="Oier Mees, et al" title="Choosing Smartly: Adaptive Multimodal Fusion for Object Detection in Changing Environments" pubvenue="in the Proceedings of the 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '16)" year="2016" url="https://ieeexplore.ieee.org/abstract/document/7759048" supp="" %}
+{% include readinggrouppaper.html authors="Oier Mees, et al" title="Choosing Smartly: Adaptive Multimodal Fusion for Object Detection in Changing Environments" pubvenue="in the Proceedings of the 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS '16)" year="2016" url="https://ieeexplore.ieee.org/abstract/document/7759048" %}
 
-{% include readinggrouppaper.html authors="Jinlong Li, et al" title="Domain Adaptive Object Detection for Autonomous Driving Under Foggy Weather" pubvenue="in the Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV '23)" year="2023" url="https://arxiv.org/abs/2210.15176" supp="" %}
+{% include readinggrouppaper.html authors="Jinlong Li, et al" title="Domain Adaptive Object Detection for Autonomous Driving Under Foggy Weather" pubvenue="in the Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV '23)" year="2023" url="https://arxiv.org/abs/2210.15176" %}
 
-{% include readinggrouppaper.html authors="Dogancan Temel, et al" title="CURE-TSR: Challenging Unreal and Real Environments for Traffic Sign Recognition" pubvenue="Neural Information Processing Systems (NeurIPS) Workshop on Machine Learning for Intelligent Transportation Systems (MLITS)" year="2017" url="https://arxiv.org/abs/1712.02463" supp="" %}
+{% include readinggrouppaper.html authors="Dogancan Temel, et al" title="CURE-TSR: Challenging Unreal and Real Environments for Traffic Sign Recognition" pubvenue="Neural Information Processing Systems (NeurIPS) Workshop on Machine Learning for Intelligent Transportation Systems (MLITS)" year="2017" url="https://arxiv.org/abs/1712.02463" %}
 
-{% include readinggrouppaper.html authors="Sabbir Ahmed, et al" title="DFR-TSD: A Deep Learning Based Framework for Robust Traffic Sign Detection Under Challenging Weather Conditions" pubvenue="IEEE Transactions on Intelligent Transportation Systems" year="2022" url="https://ieeexplore.ieee.org/abstract/document/9345465" supp="" %}
+{% include readinggrouppaper.html authors="Sabbir Ahmed, et al" title="DFR-TSD: A Deep Learning Based Framework for Robust Traffic Sign Detection Under Challenging Weather Conditions" pubvenue="IEEE Transactions on Intelligent Transportation Systems" year="2022" url="https://ieeexplore.ieee.org/abstract/document/9345465" %}
 
 #### &#9316; Environmental Constraints/Impact
 
-{% include readinggrouppaper.html authors="Yanmao Man, et al" title="That Person Moves Like A Car: Misclassification Attack Detection for Autonomous Systems Using Spatiotemporal Consistency" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/man" supp="" %}
+{% include readinggrouppaper.html authors="Yanmao Man, et al" title="That Person Moves Like A Car: Misclassification Attack Detection for Autonomous Systems Using Spatiotemporal Consistency" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/man" %}
