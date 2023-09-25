@@ -14,23 +14,23 @@ To guide this question, take a look at the figure. During the process of AV oper
 
 This taxonomy is not meant to be complete, but rather a guide for our reading group; there are definitely a few missing components during our simplification. If there are topics related to AV safety and security that don't fall into our definition, please introduce them during our reading group meetings!
 
-#### Environment State
+### Environment State
 
 The state of the environment has sensitive and private information. Since autonomous vehicles have diverse perception systems, this information is collected and stored locally/remotely. This data maybe be used to diminish upon one's ability to exist in public without being spied on.
 
-#### Sensor System
+### Sensor System
 
 Failures and attacks may directly compromise the sensor system's ability to deliver correct data. Perception fault detection and mitigation is thus an active area of research. Downstream impact on the control of the vehicle is an important area of interest here.
 
-#### Compute Environment
+### Compute Environment
 
 Autonomous vehicle middleware, such as ROS or ArduPilot, facilitates the communication and management of important sensor data and control choices. If the middleware is compromised or incorrect, this can have dangerous effects on the AV's control.
 
-#### Algorithm
+### Algorithm
 
 AVs have a few types of control algorithms. Some have bounded known error that they can have given a set of assumptions, but faulty sensor data may cause violations of these assumptions. Likewise, deep neural networks may have distribution shifts due to various environmental factors. These issues with the algorithms may cause control failure.
 
-#### Environment Interaction
+### Environment Interaction
 
 There are physical constraints that the AV must operation within as it traverses its environment (e.g., hard deadlines, social patterns, reacting to context). An adversary or fault can cause the AV to violate the constraints of the environment and cause dangerous outcomes.
 
