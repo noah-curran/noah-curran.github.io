@@ -9,7 +9,11 @@
 
     <div>
         <span class="readingspacing"></span>
-        <i>{{include.title}}</i>
+        {% if include.title != "TBD" %}
+            {{include.authors}}. <i>{{include.title}}</i>. {{include.pubvenue}}, {{include.year}}.
+        {% else %}
+            <div>{{include.title}}</div>
+        {% endif %}
     </div>
 
     <div>
