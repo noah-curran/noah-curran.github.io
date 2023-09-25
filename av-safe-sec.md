@@ -48,7 +48,7 @@ There are physical constraints that the AV must operation within as it traverses
 
 Fridays from 12:30 PM to 1:30 PM in the CSE Grad Lounge (until we can get a real conference room booked).
 
-Join the MCommunity group here to receive emails: <https://mcommunity.umich.edu/group/AV%20Safety%20Reading%20Group>
+[Join the MCommunity group here to receive emails.](https://mcommunity.umich.edu/group/AV%20Safety%20Reading%20Group)
 
 <!-- ### How Can I Volunteer?
 
