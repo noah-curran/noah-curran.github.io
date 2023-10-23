@@ -73,6 +73,7 @@ getting to know me.
 - {% include tooltip.html title="The Dragon Republic (Poppy War Trilogy: Book 2)" author="R. F. Kuang" %}
 - {% include tooltip.html title="The Burning God (Poppy War Trilogy: Book 3)" author="R. F. Kuang" %}
 - {% include tooltip.html title="Babel" author="R. F. Kuang" %}
+- {% include tooltip.html title="Seven Surrenders (Terra Ignota: Book 2)" author="Ada Palmer" %}
 
 ## Finished Reading (top is most recently completed)
 
