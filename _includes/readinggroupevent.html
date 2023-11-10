@@ -3,7 +3,12 @@
         <span class="readingspacing">
             <b>{{include.date}}</b>
         </span>
-        <u>Discussion Leader</u>: {{include.volunteer}}
+        <u>Discussion Leader</u>:
+            {% if include.volunteer_url != null %}
+                <a href="{{include.volunteer_url}}">{{include.volunteer}}</a>
+            {% else %}
+                {{include.volunteer}}
+            {% endif %}
     </div>
     <div class="readingpaperspacing">
         <span class="readingspacing"></span>
