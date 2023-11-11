@@ -51,14 +51,13 @@ getting to know me.
 
 ## Currently Reading
 
-- {% include tooltip.html title="Royal Assassin (Farseer Trilogy: Book 2)" author="Robin Hobb" %}
+- {% include tooltip.html title="The Wise Man's Fear (The Kingkiller Chronicle: Book 2)" author="Patrick Rothfuss" %}
 - A Man Called Ove
 - Dune
 - Thinking, Fast and Slow
 
 ## Plan to Read
 
-- {% include tooltip.html title="The Wise Man's Fear (The Kingkiller Chronicle: Book 2)" author="Patrick Rothfuss" %}
 - {% include tooltip.html title="The Way of Kings (The Stormlight Archive: Book 1)" author="Brandon Sanderson" %}
 - {% include tooltip.html title="The Priory of the Orange Tree" author="Samantha Shannon" %}
 - {% include tooltip.html title="The Final Empire (Mistborn: Book 1)" author="Brandon Sanderson" %}
@@ -79,6 +78,7 @@ getting to know me.
 
 #### 2023
 
+- {% include tooltip.html title="Royal Assassin (Farseer Trilogy: Book 2)" author="Robin Hobb" %}
 - {% include tooltip.html title="Too Like the Lightening (Terra Ignota: Book 1)" author="Ada Palmer" %}
 - {% include tooltip.html title="The Slow Regard of Silent Things (The Kingkiller Chronicle: Novella)" author="Patrick Rothfuss" %}
 - {% include tooltip.html title="Stardust" author="Neil Gaiman" %}
@@ -104,6 +104,7 @@ getting to know me.
 - {% include tooltip.html title="The Girl on the Train" author="Paula Hawkins" %}
 - {% include tooltip.html title="Misery: A Novel" author="Stephen King" %}
 - {% include tooltip.html title="Life After Google: The Fall of Big Data and the Rise of the Blockchain Economy" author="George Gilder" %}
+- {% include tooltip.html title="Where the Crawdads Sing" author="Delia Owens" %}
 - {% include tooltip.html title="Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy" author="Cathy O'Neil" %}
 - {% include tooltip.html title="The Hobbit" author="J. R. R. Tolkien" %}
 - {% include tooltip.html title="Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants" author="Robin Wall Kimmerer" %}
