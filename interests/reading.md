@@ -73,6 +73,8 @@ getting to know me.
 - {% include tooltip.html title="The Burning God (Poppy War Trilogy: Book 3)" author="R. F. Kuang" %}
 - {% include tooltip.html title="Babel" author="R. F. Kuang" %}
 - {% include tooltip.html title="Seven Surrenders (Terra Ignota: Book 2)" author="Ada Palmer" %}
+- {% include tooltip.html title="The Narrow Road Between Desires (The Kingkiller Chronicle: Novella)" author="Patrick Rothfuss" %}
+- {% include tooltip.html title="Assassin's Quest (Farseer Trilogy: Book 3)" author="Robin Hobb" %}
 
 ## Finished Reading (top is most recently completed)
 
