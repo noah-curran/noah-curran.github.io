@@ -41,17 +41,18 @@ ul, ol, dl, figure,
 
 details {
     summary {
-        &::before {
-            // font-family: FontAwesome;
-            font-size: 18px;
-            // content: "\f152";
-            // float: left;
-            // margin-right: 0.4em;
-        }
+        font-size: 18px;
+        // &::before {
+        //     // font-family: FontAwesome;
+        //     // font-size: 18px;
+        //     // content: "\f152";
+        //     // float: left;
+        //     // margin-right: 0.4em;
+        // }
         &::-webkit-details-marker {
             display: none;
         }
-        // margin-bottom: 0.8em;
+        margin-bottom: 2em;
     }
     // &.open, &[open] {
     //     summary::before {
