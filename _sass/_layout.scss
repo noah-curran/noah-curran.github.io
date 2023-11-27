@@ -283,13 +283,13 @@ details {
         
     }
 
-    margin-bottom: $spacing-unit;
-    
-    &.open, &[open] {
-        margin-bottom: $spacing-unit;
-        // summary::before {
-        //     content: "\f150";
-        // }
-    }
+    margin-bottom: $spacing-unit / 2;
+
+    // &.open, &[open] {
+    //     margin-bottom: $spacing-unit / 2;
+    //     // summary::before {
+    //     //     content: "\f150";
+    //     // }
+    // }
     // color: grey;
 }
