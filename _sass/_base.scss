@@ -43,21 +43,21 @@ details {
     summary {
         &::before {
             // font-family: FontAwesome;
-            font-size: 1.2em;
-            content: "\f152";
-            float: left;
-            margin-right: 0.4em;
+            font-size: 18px;
+            // content: "\f152";
+            // float: left;
+            // margin-right: 0.4em;
         }
         &::-webkit-details-marker {
             display: none;
         }
-        margin-bottom: 0.8em;
+        // margin-bottom: 0.8em;
     }
-    &.open, &[open] {
-        summary::before {
-            content: "\f150";
-        }
-    }
+    // &.open, &[open] {
+    //     summary::before {
+    //         content: "\f150";
+    //     }
+    // }
     // color: grey;
 }
 
