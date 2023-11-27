@@ -267,3 +267,21 @@ ul.listing li.listing-item a {
 	font-family: 'Titillium Web', sans-serif;
 }
 
+details {
+    summary {
+        font-size: 18px;
+        // &::before {
+        //     // font-family: FontAwesome;
+        //     // font-size: 18px;
+        //     // content: "\f152";
+        //     // float: left;
+        //     // margin-right: 0.4em;
+        // }
+        &::-webkit-details-marker {
+            display: none;
+        }
+        margin-bottom: $spacing-unit;
+    }
+
+    margin-bottom: $spacing-unit;
+}
