@@ -280,8 +280,16 @@ details {
         &::-webkit-details-marker {
             display: none;
         }
-        margin-bottom: $spacing-unit;
+        
     }
 
     margin-bottom: $spacing-unit;
+    
+    &.open, &[open] {
+        margin-bottom: $spacing-unit;
+        // summary::before {
+        //     content: "\f150";
+        // }
+    }
+    // color: grey;
 }
