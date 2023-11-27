@@ -56,6 +56,7 @@ Come to one of our meetings -->
 
 # Upcoming and Past Schedule
 
+{% include readinggroupevent.html date="Dec. 8th" volunteer="Minkyoung Cho" volunteer_url="https://minkyoungcho.github.io/" authors="" title="TBD" pubvenue="" year="" url="" %}
 {% include readinggroupevent.html date="Dec. 1st" volunteer="Liangkai Liu" volunteer_url="https://sites.google.com/view/liangkai/home" authors="Ruoyu Song, et al" title="Discovering Adversarial Driving Maneuvers against Autonomous Vehicles" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (USENIX Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/song" %}
 {% include readinggroupevent.html date="Nov. 17th" volunteer="Brian Tang" volunteer_url="https://www.bjaytang.com/" authors="Chulin Xie, et al" title="Privacy of Autonomous Vehicles: Risks, Protection Methods, and Future Directions" pubvenue="in arXiv" year="2022" url="https://arxiv.org/abs/2209.04022" supp="https://docs.google.com/document/d/1J35PLzKezfKenFR1Joyi_CBfntHNmA5x9-nSu8WfRVM/edit#heading=h.x82vtn1j0arq" %}
 {% include readinggroupeventpast.html date="Nov. 10th" volunteer="Noah Curran" volunteer_url="https://ntcurran.com" authors="R. Spencer Hallyburton, et al" title="Partial-Information, Longitudinal Cyber Attacks on LiDAR in Autonomous Vehicles" pubvenue="in arXiv" year="2023" url="https://arxiv.org/pdf/2303.03470.pdf" %}
