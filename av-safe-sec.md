@@ -56,6 +56,10 @@ Come to one of our meetings -->
 
 # Upcoming and Past Schedule
 
+<details>
+<summary>Fall 2023 Meetings</summary>
+<pre>
+
 {% include readinggroupevent.html date="Dec. 8th" volunteer="Minkyoung Cho" volunteer_url="https://minkyoungcho.github.io/" authors="" title="TBD" pubvenue="" year="" url="" %}
 {% include readinggroupevent.html date="Dec. 1st" volunteer="Liangkai Liu" volunteer_url="https://sites.google.com/view/liangkai/home" authors="Ruoyu Song, et al" title="Discovering Adversarial Driving Maneuvers against Autonomous Vehicles" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (USENIX Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/song" %}
 {% include readinggroupeventpast.html date="Nov. 17th" volunteer="Brian Tang" volunteer_url="https://www.bjaytang.com/" authors="Chulin Xie, et al" title="Privacy of Autonomous Vehicles: Risks, Protection Methods, and Future Directions" pubvenue="in arXiv" year="2022" url="https://arxiv.org/abs/2209.04022" supp="https://docs.google.com/document/d/1J35PLzKezfKenFR1Joyi_CBfntHNmA5x9-nSu8WfRVM/edit#heading=h.x82vtn1j0arq" %}
@@ -65,6 +69,8 @@ Come to one of our meetings -->
 {% include readinggroupeventpast.html date="Oct. 13th" volunteer="Ryan Feng" volunteer_url="http://www-personal.umich.edu/~rtfeng/" authors="Jinlong Li, et al" title="Domain Adaptive Object Detection for Autonomous Driving Under Foggy Weather" pubvenue="in the Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV '23)" year="2023" url="https://ieeexplore.ieee.org/abstract/document/10030451" %}
 {% include readinggroupeventpast.html date="Oct. 6th" volunteer="Minkyoung Cho" volunteer_url="https://minkyoungcho.github.io/" authors="Zhijian Liu, Haotian Tang, et al" title="BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation" pubvenue="in the Proceedings of the 2023 IEEE International Conference on Robotics and Automation (ICRA '23)" year="2023" url="https://ieeexplore.ieee.org/abstract/document/10160968" %}
 {% include readinggroupeventpast.html date="Sept. 29th" volunteer="Liangkai Liu" volunteer_url="https://sites.google.com/view/liangkai/home" authors="Ionel Gog, et al" title="D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles" pubvenue="in the Proceedings of the Seventeenth European Conference on Computer Systems (EuroSys '22)" year="2022" url="https://dl.acm.org/doi/10.1145/3492321.3519576" supp="https://arxiv.org/pdf/2302.01568.pdf" %}
+</pre>
+</details>
 
 # Paper List
 
