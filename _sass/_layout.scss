@@ -271,25 +271,6 @@ ul.listing li.listing-item a {
     display: flex;
     border: 1px dotted #00274c;
     background-color: #f3f3f3;
-    margin: $spacing-unit / 2;
-}
-
-details {
-    summary {
-        font-size: 18px;
-        // &::before {
-        //     // font-family: FontAwesome;
-        //     // font-size: 18px;
-        //     // content: "\f152";
-        //     // float: left;
-        //     // margin-right: 0.4em;
-        // }
-        &::-webkit-details-marker {
-            display: none;
-        }
-        
-    }
-
     flex: 1;
     margin-bottom: $spacing-unit / 2;
 
@@ -299,5 +280,27 @@ details {
     //     //     content: "\f150";
     //     // }
     // }
-    // color: grey;
+}
+
+.details-box .div {
+    margin-left: $spacing-unit / 2;
+    margin-right: $spacing-unit / 2;
+}
+
+.details-box summary {
+    margin-left: $spacing-unit / 2;
+    margin-right: $spacing-unit / 2;
+    font-size: 18px;
+
+    // &::before {
+    //     // font-family: FontAwesome;
+    //     // font-size: 18px;
+    //     // content: "\f152";
+    //     // float: left;
+    //     // margin-right: 0.4em;
+    // }
+    
+    &::-webkit-details-marker {
+        display: none;
+    }
 }
