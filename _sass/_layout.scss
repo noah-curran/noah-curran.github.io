@@ -282,7 +282,7 @@ ul.listing li.listing-item a {
     // }
 }
 
-.details-box .div {
+.details-box div {
     margin-left: $spacing-unit / 2;
     margin-right: $spacing-unit / 2;
 }
@@ -299,7 +299,7 @@ ul.listing li.listing-item a {
     //     // float: left;
     //     // margin-right: 0.4em;
     // }
-    
+
     &::-webkit-details-marker {
         display: none;
     }
