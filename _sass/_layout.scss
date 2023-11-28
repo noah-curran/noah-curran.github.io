@@ -267,6 +267,12 @@ ul.listing li.listing-item a {
 	font-family: 'Titillium Web', sans-serif;
 }
 
+.details-box {
+    display: flex;
+    border: 1px dotted #00274c;
+    background-color: #f3f3f3;
+}
+
 details {
     summary {
         font-size: 18px;
@@ -283,6 +289,7 @@ details {
         
     }
 
+    flex: 1;
     margin-bottom: $spacing-unit / 2;
 
     // &.open, &[open] {

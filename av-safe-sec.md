@@ -56,7 +56,7 @@ Come to one of our meetings -->
 
 # Upcoming and Past Schedule
 
-<details open>
+<details open class="details-box">
     <summary>Fall 2023 Schedule</summary>
 
     {% include readinggroupevent.html date="Dec. 8th" volunteer="Minkyoung Cho" volunteer_url="https://minkyoungcho.github.io/" authors="" title="TBD" pubvenue="" year="" url="" %}
