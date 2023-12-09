@@ -51,7 +51,8 @@ getting to know me.
 
 ## Currently Reading
 
-- {% include tooltip.html title="The Wise Man's Fear (The Kingkiller Chronicle: Book 2)" author="Patrick Rothfuss" %}
+- {% include tooltip.html title="The Poppy War (Poppy War Trilogy: Book 1)" author="R. F. Kuang" %}
+- {% include tooltip.html title="The Narrow Road Between Desires (The Kingkiller Chronicle: Novella)" author="Patrick Rothfuss" %}
 - A Man Called Ove
 - Dune
 - Thinking, Fast and Slow
@@ -68,18 +69,17 @@ getting to know me.
 - {% include tooltip.html title="Tress of the Emerald Sea" author="Brandon Sanderson" %}
 - {% include tooltip.html title="The Three-Body Problem" author="Cinxin Liu" %}
 - {% include tooltip.html title="The Adventures of Amina Al-Sirafi" author="Shannon Chakraborty" %}
-- {% include tooltip.html title="The Poppy War (Poppy War Trilogy: Book 1)" author="R. F. Kuang" %}
 - {% include tooltip.html title="The Dragon Republic (Poppy War Trilogy: Book 2)" author="R. F. Kuang" %}
 - {% include tooltip.html title="The Burning God (Poppy War Trilogy: Book 3)" author="R. F. Kuang" %}
 - {% include tooltip.html title="Babel" author="R. F. Kuang" %}
 - {% include tooltip.html title="Seven Surrenders (Terra Ignota: Book 2)" author="Ada Palmer" %}
-- {% include tooltip.html title="The Narrow Road Between Desires (The Kingkiller Chronicle: Novella)" author="Patrick Rothfuss" %}
 - {% include tooltip.html title="Assassin's Quest (Farseer Trilogy: Book 3)" author="Robin Hobb" %}
 
 ## Finished Reading (top is most recently completed)
 
 #### 2023
 
+- {% include tooltip.html title="The Wise Man's Fear (The Kingkiller Chronicle: Book 2)" author="Patrick Rothfuss" %}
 - {% include tooltip.html title="Royal Assassin (Farseer Trilogy: Book 2)" author="Robin Hobb" %}
 - {% include tooltip.html title="Too Like the Lightening (Terra Ignota: Book 1)" author="Ada Palmer" %}
 - {% include tooltip.html title="The Slow Regard of Silent Things (The Kingkiller Chronicle: Novella)" author="Patrick Rothfuss" %}
