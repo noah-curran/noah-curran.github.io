@@ -52,7 +52,6 @@ getting to know me.
 ## Currently Reading
 
 - {% include tooltip.html title="The Poppy War (Poppy War Trilogy: Book 1)" author="R. F. Kuang" %}
-- {% include tooltip.html title="The Narrow Road Between Desires (The Kingkiller Chronicle: Novella)" author="Patrick Rothfuss" %}
 - A Man Called Ove
 - Dune
 - Thinking, Fast and Slow
@@ -79,6 +78,7 @@ getting to know me.
 
 #### 2023
 
+- {% include tooltip.html title="The Narrow Road Between Desires (The Kingkiller Chronicle: Novella)" author="Patrick Rothfuss" %}
 - {% include tooltip.html title="The Wise Man's Fear (The Kingkiller Chronicle: Book 2)" author="Patrick Rothfuss" %}
 - {% include tooltip.html title="Royal Assassin (Farseer Trilogy: Book 2)" author="Robin Hobb" %}
 - {% include tooltip.html title="Too Like the Lightening (Terra Ignota: Book 1)" author="Ada Palmer" %}
