@@ -46,7 +46,7 @@ There are physical constraints that the AV must operation within as it traverses
 
 # When? Where? Email List?
 
-Fridays from 12:30 PM to 1:30 PM in the CSE Grad Lounge (until we can get a real conference room booked).
+Fridays from 2:00 PM to 3:00 PM in BBB 2725.
 
 [Join the MCommunity group here to receive emails.](https://mcommunity.umich.edu/group/AV%20Safety%20Reading%20Group)
 
