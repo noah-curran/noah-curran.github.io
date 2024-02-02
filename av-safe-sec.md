@@ -57,9 +57,15 @@ Come to one of our meetings -->
 # Upcoming and Past Schedule
 
 <details open class="details-box">
+    <summary>Winter 2024 Schedule</summary>
+
+    {% include readinggroupevent.html date="Feb. 2nd" volunteer="Noah Curran" volunteer_url="https://ntcurran.com" authors="Wei Wang, et al" title="I Can See the Light: Attacks on Autonomous Vehicles Using Invisible Lights" pubvenue="in the Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security (CCS '21)" year="2021" url="https://dl.acm.org/doi/abs/10.1145/3460120.3484766" supp="https://www.ndss-symposium.org/wp-content/uploads/2023/02/vehiclesec2023-23055-paper.pdf" %}
+</details>
+
+<details close class="details-box">
     <summary>Fall 2023 Schedule</summary>
 
-    {% include readinggroupevent.html date="Dec. 8th" volunteer="Minkyoung Cho" volunteer_url="https://minkyoungcho.github.io/" authors="Rachel Luo, et al" title="Sample-Efficient Safety Assurances Using Conformal Prediction" pubvenue="in the Proceedings of the 15th International Workshop on the Algorithmic Foundations of Robotics (WAFR '22)" year="2022" url="https://arxiv.org/abs/2109.14082" %}
+    {% include readinggroupeventpast.html date="Dec. 8th" volunteer="Minkyoung Cho" volunteer_url="https://minkyoungcho.github.io/" authors="Rachel Luo, et al" title="Sample-Efficient Safety Assurances Using Conformal Prediction" pubvenue="in the Proceedings of the 15th International Workshop on the Algorithmic Foundations of Robotics (WAFR '22)" year="2022" url="https://arxiv.org/abs/2109.14082" %}
     {% include readinggroupeventpast.html date="Dec. 1st" volunteer="Liangkai Liu" volunteer_url="https://sites.google.com/view/liangkai/home" authors="Ruoyu Song, et al" title="Discovering Adversarial Driving Maneuvers against Autonomous Vehicles" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (USENIX Security '23)" year="2023" url="https://www.usenix.org/conference/usenixsecurity23/presentation/song" %}
     {% include readinggroupeventpast.html date="Nov. 17th" volunteer="Brian Tang" volunteer_url="https://www.bjaytang.com/" authors="Chulin Xie, et al" title="Privacy of Autonomous Vehicles: Risks, Protection Methods, and Future Directions" pubvenue="in arXiv" year="2022" url="https://arxiv.org/abs/2209.04022" supp="https://docs.google.com/document/d/1J35PLzKezfKenFR1Joyi_CBfntHNmA5x9-nSu8WfRVM/edit#heading=h.x82vtn1j0arq" %}
     {% include readinggroupeventpast.html date="Nov. 10th" volunteer="Noah Curran" volunteer_url="https://ntcurran.com" authors="R. Spencer Hallyburton, et al" title="Partial-Information, Longitudinal Cyber Attacks on LiDAR in Autonomous Vehicles" pubvenue="in arXiv" year="2023" url="https://arxiv.org/pdf/2303.03470.pdf" %}
