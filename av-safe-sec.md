@@ -61,7 +61,9 @@ Come to one of our meetings -->
 
     <!-- {% include readinggroupevent.html date="Feb. 17th" volunteer="" volunteer_url="" authors=", et al" title="" pubvenue="in the Proceedings of " year="2023" url="" %} -->
 
-    {% include readinggroupevent.html date="Feb. 10th" volunteer="Liangkai Liu" volunteer_url="https://sites.google.com/view/liangkai/home" authors="Yanmao Man, et al" title="That Person Moves Like A Car: Misclassification Attack Detection for Autonomous Systems Using Spatiotemporal Consistency" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (USENIX '23)" year="2023" url="https://www.usenix.org/system/files/sec23summer_278-man-prepub.pdf" %}
+    {% include readinggroupevent.html date="Feb. 16th" volunteer="Minkyoung Cho" volunteer_url="https://minkyoungcho.github.io/" authors="R. Spencer Hallyburton, et al" title="A Multi-Agent Security Testbed for the Analysis of Attacks and Defenses in Collaborative Sensor Fusion" pubvenue="in the Proceedings of the 2nd ISOC Symposium on Vehicle Security and Privacy (VehicleSec '24)" year="2024" url="https://www.usenix.org/system/files/sec23summer_278-man-prepub.pdf" %}
+
+    {% include readinggroupeventpast.html date="Feb. 9th" volunteer="Liangkai Liu" volunteer_url="https://sites.google.com/view/liangkai/home" authors="Yanmao Man, et al" title="That Person Moves Like A Car: Misclassification Attack Detection for Autonomous Systems Using Spatiotemporal Consistency" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (USENIX '23)" year="2023" url="https://www.usenix.org/system/files/sec23summer_278-man-prepub.pdf" %}
 
     {% include readinggroupeventpast.html date="Feb. 2nd" volunteer="Noah Curran" volunteer_url="https://ntcurran.com" authors="Wei Wang, et al" title="I Can See the Light: Attacks on Autonomous Vehicles Using Invisible Lights" pubvenue="in the Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security (CCS '21)" year="2021" url="https://dl.acm.org/doi/abs/10.1145/3460120.3484766" supp="https://www.ndss-symposium.org/wp-content/uploads/2023/02/vehiclesec2023-23055-paper.pdf" %}
 </details>
