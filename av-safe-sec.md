@@ -61,7 +61,9 @@ Come to one of our meetings -->
 
     <!-- {% include readinggroupevent.html date="Feb. 17th" volunteer="" volunteer_url="" authors=", et al" title="" pubvenue="in the Proceedings of " year="2023" url="" %} -->
 
-    {% include readinggroupevent.html date="Feb. 16th" volunteer="Minkyoung Cho" volunteer_url="https://minkyoungcho.github.io/" authors="R. Spencer Hallyburton, et al" title="A Multi-Agent Security Testbed for the Analysis of Attacks and Defenses in Collaborative Sensor Fusion" pubvenue="in the Proceedings of the 2nd ISOC Symposium on Vehicle Security and Privacy (VehicleSec '24)" year="2024" url="https://www.usenix.org/system/files/sec23summer_278-man-prepub.pdf" %}
+    {% include readinggroupevent.html date="Feb. 23rd" volunteer="Ryan Feng" volunteer_url="http://www-personal.umich.edu/~rtfeng/" authors="Jinrang Jia, et al" title="MonoUNI: A Unified Vehicle and Infrastructure-side Monocular 3D Object Detection Network with Sufficient Depth Clues" pubvenue="in the Proceedings of the 37th Conference on Neural Information Processing Systems (NeurIPS '23)" year="2023" url="https://openreview.net/pdf?id=v2oGdhbKxi" %}
+
+    {% include readinggroupeventpast.html date="Feb. 16th" volunteer="Minkyoung Cho" volunteer_url="https://minkyoungcho.github.io/" authors="R. Spencer Hallyburton, et al" title="A Multi-Agent Security Testbed for the Analysis of Attacks and Defenses in Collaborative Sensor Fusion" pubvenue="in the Proceedings of the 2nd ISOC Symposium on Vehicle Security and Privacy (VehicleSec '24)" year="2024" url="https://arxiv.org/pdf/2401.09387.pdf" supp="https://ieeexplore.ieee.org/abstract/document/10160367"%}
 
     {% include readinggroupeventpast.html date="Feb. 9th" volunteer="Liangkai Liu" volunteer_url="https://sites.google.com/view/liangkai/home" authors="Yanmao Man, et al" title="That Person Moves Like A Car: Misclassification Attack Detection for Autonomous Systems Using Spatiotemporal Consistency" pubvenue="in the Proceedings of the 32nd USENIX Security Symposium (USENIX '23)" year="2023" url="https://www.usenix.org/system/files/sec23summer_278-man-prepub.pdf" %}
 
