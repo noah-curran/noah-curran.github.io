@@ -1,2 +1,2 @@
-.DS_Store
-images/20*/
+_site
+.sass-cache

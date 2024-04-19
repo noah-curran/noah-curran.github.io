@@ -1,0 +1,37 @@
+.details-box {
+    display: flex;
+    border: 1px dotted #00274c;
+    background-color: #f3f3f3;
+    flex: 1;
+    margin-bottom: $spacing-unit / 2;
+
+    // &.open, &[open] {
+    //     margin-bottom: $spacing-unit / 2;
+    //     // summary::before {
+    //     //     content: "\f150";
+    //     // }
+    // }
+}
+
+.details-box div {
+    margin-left: $spacing-unit / 2;
+    margin-right: $spacing-unit / 2;
+}
+
+.details-box summary {
+    margin-left: $spacing-unit / 2;
+    margin-right: $spacing-unit / 2;
+    font-size: 18px;
+
+    // &::before {
+    //     // font-family: FontAwesome;
+    //     // font-size: 18px;
+    //     // content: "\f152";
+    //     // float: left;
+    //     // margin-right: 0.4em;
+    // }
+
+    &::-webkit-details-marker {
+        display: none;
+    }
+}
