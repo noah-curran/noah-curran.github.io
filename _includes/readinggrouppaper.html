@@ -1,0 +1,11 @@
+<p>
+    <div>
+        {{include.authors}}. <i>{{include.title}}</i>. {{include.pubvenue}}, {{include.year}}.
+    </div>
+    <div>
+        [<a href="{{include.url}}">URL</a>]
+        {% if include.supp != null %}
+        [<a href="{{include.supp}}">Supplement</a>]
+        {% endif %}
+    </div>
+</p>
