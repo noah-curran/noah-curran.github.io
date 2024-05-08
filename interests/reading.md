@@ -71,6 +71,9 @@ getting to know me.
 - {% include tooltip.html title="The Burning God (Poppy War Trilogy: Book 3)" author="R. F. Kuang" %}
 - {% include tooltip.html title="Babel" author="R. F. Kuang" %}
 - {% include tooltip.html title="Seven Surrenders (Terra Ignota: Book 2)" author="Ada Palmer" %}
+- {% include tooltip.html title="Ship of Magic (Liveship Trilogy: Book 1)" author="Robin Hobb" %}
+- {% include tooltip.html title="The Mad Ship (Liveship Trilogy: Book 2)" author="Robin Hobb" %}
+- {% include tooltip.html title="Ship of Destiny (Liveship Trilogy: Book 3)" author="Robin Hobb" %}
 
 ## Finished Reading (top is most recently completed)
 
