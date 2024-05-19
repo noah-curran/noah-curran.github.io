@@ -51,7 +51,10 @@ getting to know me.
 
 ## Currently Reading
 
-- {% include tooltip.html title="Assassin's Quest (Farseer Trilogy: Book 3)" author="Robin Hobb" %}
+- {% include tooltip.html title="Good Omens" author="Neil Gaiman and Terry Pratchett" %}
+
+## On Hold
+
 - A Man Called Ove
 - Dune
 - Thinking, Fast and Slow
@@ -62,6 +65,11 @@ getting to know me.
 - {% include tooltip.html title="The Priory of the Orange Tree" author="Samantha Shannon" %}
 - {% include tooltip.html title="The Final Empire (Mistborn: Book 1)" author="Brandon Sanderson" %}
 - {% include tooltip.html title="The Once and Future King" author="T. H. White" %}
+- {% include tooltip.html title="Seven Surrenders (Terra Ignota: Book 2)" author="Ada Palmer" %}
+- {% include tooltip.html title="Ship of Magic (Liveship Trilogy: Book 1)" author="Robin Hobb" %}
+- {% include tooltip.html title="The Mad Ship (Liveship Trilogy: Book 2)" author="Robin Hobb" %}
+- {% include tooltip.html title="Ship of Destiny (Liveship Trilogy: Book 3)" author="Robin Hobb" %}
+- {% include tooltip.html title="Seven Surrenders (Terra Ignota: Book 2)" author="Ada Palmer" %}
 - {% include tooltip.html title="A Psalm for the Wild Built" author="Becky Chambers" %}
 - {% include tooltip.html title="She Who Became the Sun (The Radiant Emperor Duology: Book 1)" author="Shelley Parker-Chan" %}
 - {% include tooltip.html title="He Who Drowned the World (The Radiant Emperor Duology: Book 2)" author="Shelley Parker-Chan" %}
@@ -70,15 +78,12 @@ getting to know me.
 - {% include tooltip.html title="The Adventures of Amina Al-Sirafi" author="Shannon Chakraborty" %}
 - {% include tooltip.html title="The Burning God (Poppy War Trilogy: Book 3)" author="R. F. Kuang" %}
 - {% include tooltip.html title="Babel" author="R. F. Kuang" %}
-- {% include tooltip.html title="Seven Surrenders (Terra Ignota: Book 2)" author="Ada Palmer" %}
-- {% include tooltip.html title="Ship of Magic (Liveship Trilogy: Book 1)" author="Robin Hobb" %}
-- {% include tooltip.html title="The Mad Ship (Liveship Trilogy: Book 2)" author="Robin Hobb" %}
-- {% include tooltip.html title="Ship of Destiny (Liveship Trilogy: Book 3)" author="Robin Hobb" %}
 
 ## Finished Reading (top is most recently completed)
 
 #### 2024
 
+- {% include tooltip.html title="Assassin's Quest (Farseer Trilogy: Book 3)" author="Robin Hobb" %}
 - {% include tooltip.html title="The Dragon Republic (Poppy War Trilogy: Book 2)" author="R. F. Kuang" %}
 
 #### 2023
