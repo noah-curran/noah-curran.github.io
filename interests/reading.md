@@ -4,50 +4,29 @@ title: Reading List
 permalink: /interests/reading/
 ---
 
-I want to give a short story...
+I want to share a short story...
 
-When I was younger, I was constantly reading books -- late into the night, 
-during my classes, or in the car on road trips. When I got a bit older and 
-a lot busier, the whimsical fantasy worlds became something of the past. 
-The years went by and for most of them I hadn't read an ounce of fiction 
-that wasn't required by my schoolwork. At the start of my graduate studies, 
-I gave serious thought to this: "why not read again?" I think at the time I 
-yearned for some of the simplicity that came with being a kid. (I wasn't 
-thinking about this, but the real answer is pretty simple. I stopped reading 
-mostly because I became obsessed with my studies and focusing on my career 
-growth. On the other hand I was becoming pretty unhappy without a ton of 
-fun in life and pretty reasonably I wanted it back. I similarly gave up 
-most television, sports, video games, and regular competitive exercising 
-once I entered college. The fun I had definitely wasn't at zero, but it was 
-less than that of a normal person. I don't really regret my choices, but I also 
-don't think I could make them again.) So, I picked up a few fiction novels 
-and read through them. After a few years of this, I can safely say that it 
-was a good choice. So many good ideas can come from the fantasy and science 
-fiction authors of yesterday and today. The way their words paint the future 
-are inspiring, scary, thought-provoking, and, above all else, creative. The 
-core skill required of a scientist is to have the creativity to turn nothing 
-into something. I feel this is pretty similar skill required of fantasy and 
-science fiction authors. To take myself back to the child-like imagination, 
-I decided I'll keep working on this hobby.
+When I was younger, I constantly read books—late into the night, during classes, 
+or on road trips. As I got older and busier, those whimsical fantasy worlds 
+faded away. For years, I didn't read any fiction outside of school requirements. 
+At the start of my graduate studies, I wondered, "Why not read again?" I yearned 
+for the simplicity of childhood. I had stopped reading because I became obsessed 
+with my studies and career, which made life less fun. Though I don't regret my 
+choices, I wouldn't make them again. So, I gave it a shot: I picked up a few 
+fiction novels and read through them. After a few years, I can say it was a good 
+choice. Fantasy and science fiction authors inspire, scare, and provoke thought. 
+Their creativity is similar to the core skill of a scientist: turning nothing 
+into something. To reconnect with my child-like imagination, I decided to keep reading.
 
-Unfortunately, deciding to resume an old hobby during graduate school is 
-some pretty bad timing. When can I find time to read for fun when there 
-is already so much to read for graduate school? I didn't really have a problem 
-reincorporating other fun back into my life, but reading more after a long day 
-of reading is a pretty lofty ask. Luckily, Ann Arbor is home to a pretty decent 
-public transportation system and a multitude of amazing local coffee shops. I 
-have been fortunate enough to use it for my commute to and from the university 
-each day, and get a few pages of reading during those rides. On the occasional 
-free weekend, I'll take whatever book I'm reading to a coffee shop and read 
-until I need to head home. Otherwise, I get a bulk of reading done during 
-flights when I'm traveling, while relaxing on a vacation, and during the 
-evenings when I'm feeling a bit of insomnia. (Reading under the shine of a 
-book light really takes me back to what it was like reading as a kid.)
+However, resuming an old hobby during graduate school isn't easy. Finding time to 
+read for fun is challenging when there's so much to read for school. Fortunately, 
+Ann Arbor has a good public transportation system and many great coffee shops. I 
+use my commute to read and visit coffee shops on free weekends. I also read during 
+flights, vacations, and evenings when I have insomnia. (Reading under a book light 
+takes me back to my childhood.)
 
-I'm keeping a running list of what I end up reading here. It's mostly 
-for myself, but if you're curious about any of the books I'm reading or 
-have any recommendations, reach out to me! It's an easy ice-breaker for 
-getting to know me.
+I'm keeping a list of what I read here. It's mostly for myself, but if you're 
+curious or have recommendations, reach out! It's an easy way to get to know me.
 
 ## Currently Reading
 
