@@ -31,6 +31,7 @@ curious or have recommendations, reach out! It's an easy way to get to know me.
 ## Currently Reading
 
 - {% include tooltip.html title="Good Omens" author="Neil Gaiman and Terry Pratchett" %}
+- {% include tooltip.html title="The Way of Kings (The Stormlight Archive: Book 1)" author="Brandon Sanderson" %}
 
 ## On Hold
 
@@ -40,7 +41,6 @@ curious or have recommendations, reach out! It's an easy way to get to know me.
 
 ## Plan to Read
 
-- {% include tooltip.html title="The Way of Kings (The Stormlight Archive: Book 1)" author="Brandon Sanderson" %}
 - {% include tooltip.html title="The Priory of the Orange Tree" author="Samantha Shannon" %}
 - {% include tooltip.html title="The Final Empire (Mistborn: Book 1)" author="Brandon Sanderson" %}
 - {% include tooltip.html title="The Once and Future King" author="T. H. White" %}
