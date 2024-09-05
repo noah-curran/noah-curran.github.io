@@ -10,6 +10,7 @@ For some reason you cannot connect your embedded board over WiFi. Maybe your boa
 You need the internet to download updates and are too lazy to grab a usb or transfer files from a workstation that is connected to the internet over WiFi (or maybe something else IDK).
 
 Your setup might look something like this:
+
 ![The setup of two computers. One is running an Nvidia Orin NX on the left and one is running Ubuntu 22.04 workstation on the right. The two computers are connected via an ethernet cord.](/assets/images/blog/2024-09-05-how-to-share-wifi-over-ethernet/setup.png)
 
 We will call the device with WiFi capabilities our "WiFi machine" and our other device our "non-WiFi machine". Prepare our setup by connecting the two devices with an ethernet cord.
@@ -19,7 +20,9 @@ When I did this setup, my WiFi machine is Ubuntu 22.04 and my non-WiFi machine i
 1. Go to Settings > Network > Wired > Click the gear icon on one of your wired setup configurations. At this point, you can create a new one if you'd like by pressing "+" next to "Wired".
 2. A dialog pops up. Press IPv4 > Shared to other computers > Apply.
 3. Click the profile you just updated (to refresh it) and take note of the IPv4 address. Mine is `10.42.0.1`, seen in the screenshot below:
+
 ![Screenshot of network settings showing the IPv4 and IPv6 addresses.](/assets/images/blog/2024-09-05-how-to-share-wifi-over-ethernet/ipv4.png)
+
 4. Restart network services in terminal using `sudo systemctl restart NetworkManager`
 5. In your terminal run `ip a`. Locate your ethernet connection, which should be something like `eth0` or `enpXsY` (`X` and `Y` can vary). Double check that your IPv4 address is there and take note of the naming of the ethernet. Ensure that it shows `state UP`. If it is down, use `sudo ip link set eth0 up`, replacing `eth0` with whatever its name actually was.
 6. Enable IP forwarding using `sudo sysctl -w net.ipv4.ip_forward=1`. You can permanently set this by adding the line `net.ipv4.ip_forward=1` to the file `/etc/sysctl.conf`. Be sure to appl the changes using `sudo sysctl -p` once you're done.
