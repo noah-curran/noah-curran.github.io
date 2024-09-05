@@ -45,5 +45,6 @@ If you have this issue, try this and see what happens.
 Go to IPv4 > Manual. Under "Addresses" add `10.42.0.xx` to Address (where `xx` is anything but `1` or `0`, I chose `10`... you should choose different values for different machines if you are going to use multiple).
 Add `255.255.255.0` to Netmask. Add `10.42.0.1` (or whatever you WiFi machine's IPv4 address was that you took note of above).
 Press Add, and you should be good to go. This just manually adds what you want rather than having the system automatically look for it. I've had issues with the board not being able to find the network connection, but manually pointing it toward where it should look works.
+If the DNS does not resolve, you could also just manually give it Cloudflare's (1.1.1.1) or Google's (8.8.8.8) DNS server.
 
-At this point if it works, then you have internet on your non-WiFi device!
+At this point if it works, then you have internet on your non-WiFi device! Sorry if it doesn't work and good luck finding your solution to this painful problem...
