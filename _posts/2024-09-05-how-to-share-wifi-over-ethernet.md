@@ -18,7 +18,8 @@ When I did this setup, my WiFi machine is Ubuntu 22.04 and my non-WiFi machine i
 ## On the WiFi machine
 1. Go to Settings > Network > Wired > Click the gear icon on one of your wired setup configurations. At this point, you can create a new one if you'd like by pressing "+" next to "Wired".
 2. A dialog pops up. Press IPv4 > Shared to other computers > Apply.
-3. Click the profile you just updated (to refresh it) and take note of the IPv4 address. Mine is `10.42.0.1`.
+3. Click the profile you just updated (to refresh it) and take note of the IPv4 address. Mine is `10.42.0.1`, seen in the screenshot below:
+![Screenshot of network settings showing the IPv4 and IPv6 addresses.](/assets/images/blog/2024-09-05-how-to-share-wifi-over-ethernet/ipv4.png)
 4. Restart network services in terminal using `sudo systemctl restart NetworkManager`
 5. In your terminal run `ip a`. Locate your ethernet connection, which should be something like `eth0` or `enpXsY` (`X` and `Y` can vary). Double check that your IPv4 address is there and take note of the naming of the ethernet. Ensure that it shows `state UP`. If it is down, use `sudo ip link set eth0 up`, replacing `eth0` with whatever its name actually was.
 6. Enable IP forwarding using `sudo sysctl -w net.ipv4.ip_forward=1`. You can permanently set this by adding the line `net.ipv4.ip_forward=1` to the file `/etc/sysctl.conf`. Be sure to appl the changes using `sudo sysctl -p` once you're done.
