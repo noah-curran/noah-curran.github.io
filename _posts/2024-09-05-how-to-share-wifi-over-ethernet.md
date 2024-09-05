@@ -38,6 +38,12 @@ sudo iptables -A FORWARD -i wlan0 -o eth0 -m state --state RELATED,ESTABLISHED -
 sudo iptables -A FORWARD -i eth0 -o wlan0 -j ACCEPT
 ```
 Replace `eth0` with the value we took note of before. Replace `wlan0` with the actual WiFi connection name from `ip a` (e.g., could be `wlpXsY`).
+It is also possible that without this step that you will not be able to actually load webpages or download from the internet even though the ping works.
+If you have this issue, try this and see what happens.
 4. Ping an excternal domain name  (e.g., Google's): `ping google.com`. If we failed at this stage, there is a failure with DNS resolution.
+5. Optional, but recommended for stability. Go to Settings > Network > Wired > Click the gear icon (or create a new setup with "+").
+Go to IPv4 > Manual. Under "Addresses" add `10.42.0.xx` to Address (where `xx` is anything but `1` or `0`, I chose `10`... you should choose different values for different machines if you are going to use multiple).
+Add `255.255.255.0` to Netmask. Add `10.42.0.1` (or whatever you WiFi machine's IPv4 address was that you took note of above).
+Press Add, and you should be good to go. This just manually adds what you want rather than having the system automatically look for it. I've had issues with the board not being able to find the network connection, but manually pointing it toward where it should look works.
 
 At this point if it works, then you have internet on your non-WiFi device!
