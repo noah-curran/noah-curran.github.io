@@ -9,9 +9,11 @@ permalink: /research/
 <b>Noah T. Curran</b>, Thomas W. Kennings, and Kang G. Shin, 
     <i>Analysis and Prevention of MCAS-Induced Crashes</i>, 
     in the Proceedings of the 2024 ACM SIGBED International Conference on Embedded Software (EMSOFT '24), Raleigh, NC, October 2024.  
-(Acceptance rate: 37/142 ≈ 26.0%)
+(Acceptance rate: 28/129 ≈ 21.7%)
 <b style="color:Tomato;">[Best Paper Finalist]</b>
 <a href="/assets/files/emsoft24-curran.pdf">[PDF]</a>
+<a href="/assets/files/emsoft24-curran-poster.pdf">[Poster]</a>
+<a href="/assets/files/emsoft24-curran-slides.pdf">[Slides]</a>
 <a href="https://github.com/noah-curran/SA-MCAS">[Code]</a>
 
 <b>Noah T. Curran</b>, Minkyoung Cho, Ryan Feng, Liangkai Liu, Brian Jay Tang, Pedram MohajerAnsari, Alkim Domeke, Mert D. Pesé, and Kang G. Shin, 
