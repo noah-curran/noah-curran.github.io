@@ -30,7 +30,6 @@ curious or have recommendations, reach out! It's an easy way to get to know me.
 
 ## Currently Reading
 
-- {% include tooltip.html title="Good Omens" author="Neil Gaiman and Terry Pratchett" %}
 - {% include tooltip.html title="The Way of Kings (The Stormlight Archive: Book 1)" author="Brandon Sanderson" %}
 
 ## On Hold
@@ -62,6 +61,7 @@ curious or have recommendations, reach out! It's an easy way to get to know me.
 
 #### 2024
 
+- {% include tooltip.html title="Good Omens" author="Neil Gaiman and Terry Pratchett" %}
 - {% include tooltip.html title="Assassin's Quest (Farseer Trilogy: Book 3)" author="Robin Hobb" %}
 - {% include tooltip.html title="The Dragon Republic (Poppy War Trilogy: Book 2)" author="R. F. Kuang" %}
 
