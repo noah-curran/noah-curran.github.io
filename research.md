@@ -37,6 +37,7 @@ permalink: /research/
     in the Proceedings of the Inaugural ISOC Symposium on Vehicle Security and Privacy (VehicleSec '23), San Diego, CA, February 2023.  
 (Acceptance rate: 6/16 ≈ 37.5%)  
 <b style="color:Tomato;">[Best Short/WIP Paper Runner-Up]</b>
+<b style="color:Orange;">[Co-Located with NDSS '23]</b>
 <a href="/assets/files/vehiclesec23-curran.pdf">[PDF]</a>
 
 ### High School Mentorship
