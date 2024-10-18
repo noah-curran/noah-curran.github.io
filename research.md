@@ -21,6 +21,7 @@ permalink: /research/
     in the 1st Cyber Security in Cars Workshop (CSCS '24), Salt Lake City, UT, October 2024.  
 <b style="color:Orange;">[Co-Located with CCS '24]</b>
 <a href="/assets/files/cscs24-curran.pdf">[PDF]</a>
+<a href="/assets/files/cscs24-curran-slides.pdf">[Slides]</a>
 <!-- <b style="color:DarkBlue;">[PDF not yet available]</b> -->
 
 <b>Noah T. Curran</b>, Arun Ganesan, Mert D. Pesé, and Kang G. Shin, 
