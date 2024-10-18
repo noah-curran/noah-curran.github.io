@@ -19,6 +19,8 @@ permalink: /research/
 <b>Noah T. Curran</b>, Minkyoung Cho, Ryan Feng, Liangkai Liu, Brian Jay Tang, Pedram MohajerAnsari, Alkim Domeke, Mert D. Pesé, and Kang G. Shin, 
     <i>Achieving the Safety and Security of the End-to-End AV Pipeline</i>, 
     in the 1st Cyber Security in Cars Workshop (CSCS '24), Salt Lake City, UT, October 2024.  
+(Acceptance rate: 7/18 ≈ 38.9%)
+<b style="color:DarkGreen;">[Collaboration with the <a href="/avsafesec">UMich AV SafeSec Reading Group</a>]</b>
 <b style="color:Orange;">[Co-Located with CCS '24]</b>
 <a href="/assets/files/cscs24-curran.pdf">[PDF]</a>
 <a href="/assets/files/cscs24-curran-slides.pdf">[Slides]</a>
