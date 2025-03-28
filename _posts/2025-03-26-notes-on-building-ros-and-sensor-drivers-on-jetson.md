@@ -6,13 +6,13 @@ categories: embedded
 ---
 To my surprise, installing ROS and sensor drivers on Jetson (mine is an NX Orin 16GB version) is not as straightforward as I would have hoped. Here are some notes on my experience with actually getting it to work while installing a Jetson board to be used with our AgileX Hunter 2 which is equipped with the inDro Robotics Commander mount. The inDro Commander mount came equipped with ROS1 and without a GPU, so we wanted to upgrade it using a Jetson board. I had a lot of troubleshooting and failed attempts at getting this to work, so here are some notes to get things deployed quickly.
 
-### Environment Setup
+## Environment Setup
 We are using the Isaac ROS (release v3.2) framework[^1] since it comes with convenient Docker containers[^2] for running ROS and some sensor drivers on Jetson devices. There are steps for flashing the Jetson platform[^3] and then setting up the development workspace on the Jetson[^4].
 
-### Setting up RealSense 435i
+## Setting up RealSense 435i
 We follow the instructions in this guide [^5]. However, the drivers won't work and we need to do some fixes, which involve installing librealsense manually. There is a guide for accomplishing this in this page [^6]. We want to follow `Solution 2`. Install script should have `/opt/realsense/build-librealsense.sh -n -j 6 -v v2.55.1`. At this point, run `realsense-viewer` and confirm that the IR, depth, and RGB camera viewers are working. We can also edit `${ISAAC_ROS_WS}/src/isaac_ros_common/docker/Dockerfile.realsense` so that the script above is modified with the `-n` parameter. This makes deploying the Docker easier later so that you don't need to reinstall librealsense every time. Apparently, the reason this happens is because there can be issues with the GPU connecting with librealsense which causes the RealSense drivers to malfunction.
 
-### Setting up RoboSense LIDAR
+## Setting up RoboSense LIDAR
 You need to download[^9][^10] into `${ISAAC_ROS_WS}/src`:
 ```bash
 cd ${ISAAC_ROS_WS}/src
@@ -39,7 +39,7 @@ ros2 launch rslidar_sdk start.py
 ```
 At this point you should see a pointcloud in rviz. If you don't, check your network (probably eth0) over Wireshark to make sure that packets are arriving. If they aren't try restarting your Jetson board and try again from the start.
 
-### Setting up AgileX Hunter 2 Drivers
+## Setting up AgileX Hunter 2 Drivers
 Before getting started with this, we need to enable USB-to-CAN interface. Since the Jetson device has a dedicated CAN interface, these are disabled by default. The guide found in [^11] has instructions on how to enable this without reflashing the Jetson device.
 
 ```bash
@@ -111,7 +111,7 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0, y: 0.0, z: 0.
 ```
 And change the values to non-zero floats to give it movement.
 
-### Setting up YOLO and Visual SLAM
+## Setting up YOLO and Visual SLAM
 There are two guides we are following: YOLO[^7] and Visual SLAM[^8]. Follow these exactly as they are written to get things working.
 
 [^1]: "Isaac ROS" [(link)](https://nvidia-isaac-ros.github.io/)
