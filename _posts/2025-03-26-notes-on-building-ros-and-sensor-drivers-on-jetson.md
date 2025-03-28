@@ -1,0 +1,100 @@
+---
+layout: post
+title:  "Notes On: Building ROS and Sensor Drivers on Jetson"
+date:   2025-03-26 16:44
+categories: embedded
+---
+To my surprise, installing ROS and sensor drivers on Jetson (mine is an NX Orin 16GB version) is not as straightforward as I would have hoped. Here are some notes on my experience with actually getting it to work while installing a Jetson board to be used with our AgileX Hunter 2 which is equipped with the inDro Robotics mount. I had a lot of troubleshooting and failed attempts at getting it to work, but I left them out in favor of just writing what did actually work for me. Note that we are using Isaac ROS release v3.2.
+
+### Environment Setup
+We are using the Isaac ROS framework[^1] since it comes with convenient Docker containers[^2] for running ROS and some sensor drivers on Jetson devices. There are steps for flashing the Jetson platform[^3] and then setting up the development workspace on the Jetson[^4].
+
+### Setting up RealSense 435i
+We follow the instructions in this guide [^5]. However, the drivers won't work and we need to do some fixes, which involve installing librealsense manually. There is a guide for accomplishing this in this page [^6]. We want to follow `Solution 2`. Install script should have `/opt/realsense/build-librealsense.sh -n -j 6 -v v2.55.1`. At this point, run `realsense-viewer` and confirm that the IR, depth, and RGB camera viewers are working. We can also edit `${ISAAC_ROS_WS}/src/isaac_ros_common/docker/Dockerfile.realsense` so that the script above is modified with the `-n` parameter. This makes deploying the Docker easier later so that you don't need to reinstall librealsense every time. Apparently, the reason this happens is because there can be issues with the GPU connecting with librealsense which causes the RealSense drivers to malfunction.
+
+### Setting up RoboSense LIDAR
+You need to download[^9][^10] into `${ISAAC_ROS_WS}/src`:
+```bash
+cd ${ISAAC_ROS_WS}/src
+git clone https://github.com/RoboSense-LiDAR/rslidar_sdk
+cd rslidar_sdk
+git submodule init
+git submodule update
+git clone https://github.com/RoboSense-LiDAR/rslidar_msg
+```
+Then edit `rslidar_sdk/config/config.yaml` so that:
+```yaml
+// common
+lidar:
+  - driver:
+      lidar_type: RSHELIOS_16P
+// ...rest of file...
+```
+To test, run the Docker and build:
+```bash
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && ./scripts/run_dev.sh
+colcon build --symlink-install --packages-up-to rslidar_sdk
+source install/setup.bash
+ros2 launch rslidar_sdk start.py
+```
+At this point you should see a pointcloud in rviz. If you don't, check your network (probably eth0) over Wireshark to make sure that packets are arriving. If they aren't try restarting your Jetson board and try again from the start.
+
+### Setting up AgileX Hunter 2 Drivers
+Before getting started with this, we need to enable USB-to-CAN interface. Since the Jetson device has a dedicated CAN interface, these are disabled by default. The guide found in [^11] has instructions on how to enable this without reflashing the Jetson device.
+
+```bash
+uname -r
+
+# Download kernel sources which match this version. For Jetpack 6.0 this is r363
+cd ~/Downloads
+wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v3.0/sources/public_sources.tbz2
+
+# Extract sources
+tar -xvf public_sources.tbz2
+cd ~/Linux_for_Tegra/source
+tar -xvf kernel_src.tbz2
+
+# Build menuconfig to edit source config
+cd kernel/kernel-jammy-src
+zcat /proc/config.gz > .config
+make oldconfig
+sudo apt-get update && sudo apt-get install build-essential libncurses5-dev bc libssl-dev
+
+# In this menu do:
+# Networking support → CAN bus subsystem support → CAN Device Drivers → CAN USB interfaces → Geschwister Schneider UG (gs_usb)
+# Press M, then save and exit
+make menuconfig
+
+# EDITED FROM ORIGINAL VERSION TO SAVE TIME
+# Build modules and add gs_usb to kernel drivers
+make modules_prepare
+make M=drivers/net/can/usb -j4
+find . -name "gs_usb.ko" # Probably at drivers/net/can/usb/gs_usb.ko
+sudo mkdir -p /lib/modules/$(uname -r)/kernel/drivers/net/can/usb/
+sudo cp drivers/net/can/usb/gs_usb.ko /lib/modules/$(uname -r)/kernel/drivers/net/can/usb
+sudo depmod -a
+
+# Load gs_usb
+sudo modprobe gs_usb
+# Verify it is loaded
+lsmod | grep gs_usb
+# Make it load at boot
+echo "gs_usb" | sudo tee -a /etc/modules
+```
+
+If everything runs fine then we are good to go forward with setting up the AgileX Hunter 2 ROS drivers.
+
+### Setting up YOLO and Visual SLAM
+There are two guides we are following: YOLO[^7] and Visual SLAM[^8]. Follow these exactly as they are written to get things working.
+
+[^1]: "Isaac ROS" [(link)](https://nvidia-isaac-ros.github.io/)
+[^2]: "Isaac ROS Dockers" [(link)](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/tree/main/docker)
+[^3]: [(link)](https://nvidia-isaac-ros.github.io/getting_started/hardware_setup/compute/index.html#jetson-platforms)
+[^4]: [(link)](https://nvidia-isaac-ros.github.io/getting_started/dev_env_setup.html)
+[^5]: [(link)](https://nvidia-isaac-ros.github.io/getting_started/hardware_setup/sensors/realsense_setup.html)
+[^6]: [(link)](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nvblox/isaac_ros_nvblox/troubleshooting/troubleshooting_nvblox_realsense.html)
+[^7]: [(link)](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_object_detection/isaac_ros_yolov8/index.html)
+[^8]: [(link)](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_realsense.html)
+[^9]: [(link)](https://github.com/RoboSense-LiDAR/rslidar_sdk)
+[^10]: [(link)](https://github.com/RoboSense-LiDAR/rslidar_msg)
+[^11]: [(link)](https://gist.github.com/WT-MM/5f414dfa32aca8adbf5ef8e32a391e30)
