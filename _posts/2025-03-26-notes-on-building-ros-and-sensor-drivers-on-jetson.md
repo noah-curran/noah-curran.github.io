@@ -84,6 +84,33 @@ echo "gs_usb" | sudo tee -a /etc/modules
 
 If everything runs fine then we are good to go forward with setting up the AgileX Hunter 2 ROS drivers.
 
+To set up the drivers, we follow the documentation from the official Github repository[^12].
+```bash
+cd ${ISAAC_ROS_WS}/src
+git clone https://github.com/agilexrobotics/ugv_sdk
+git clone https://github.com/agilexrobotics/hunter_ros2
+cd ugv_sdk/scripts/
+# Only on first time
+bash setup_can2usb.bash
+# Every time you turn power back on
+bash bringup_can2usb_500k.bash
+# Test that you get messages over the CAN, make sure robot is turned on and connected over CAN-to-USB
+candump can0
+# Build and launch nodes
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && ./scripts/run_dev.sh
+colcon build --symlink-install --packages-up-to hunter_base
+source install/setup.bash
+ros2 launch hunter_base hunter_base.launch.py
+```
+
+**WARNING: AT THIS POINT IF YOU SEND A COMMAND TO THE ROBOT TO MOVE AND IT IS HOOKED UP TO STUFF OR AROUND OTHER EQUIPMENT THEN IT MAY CAUSE DAMAGE. PROCEED WITH SENDING MOVEMENT COMMANDS AT YOUR OWN CAUTION AND RISK.**
+
+You can send commands with:
+```bash
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+```
+And change the values to non-zero floats to give it movement.
+
 ### Setting up YOLO and Visual SLAM
 There are two guides we are following: YOLO[^7] and Visual SLAM[^8]. Follow these exactly as they are written to get things working.
 
@@ -98,3 +125,4 @@ There are two guides we are following: YOLO[^7] and Visual SLAM[^8]. Follow thes
 [^9]: [(link)](https://github.com/RoboSense-LiDAR/rslidar_sdk)
 [^10]: [(link)](https://github.com/RoboSense-LiDAR/rslidar_msg)
 [^11]: [(link)](https://gist.github.com/WT-MM/5f414dfa32aca8adbf5ef8e32a391e30)
+[^12]: [(link)](https://github.com/agilexrobotics/hunter_ros2)
