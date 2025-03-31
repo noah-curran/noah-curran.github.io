@@ -111,6 +111,42 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0, y: 0.0, z: 0.
 ```
 And change the values to non-zero floats to give it movement.
 
+## Setting up GPS and RTK ROS2 Drivers
+We are using the Fixposition Vision-RTK 2 and the documentation for setting it up is really comprehensive [^13].
+
+To summarize:
+```bash
+cd ${ISAAC_ROS_WS}/src
+git clone --recursive -b 8.0.0 https://github.com/fixposition/fixposition_driver
+bash src/fixposition
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && ./scripts/run_dev.sh
+
+# Setup dependencies
+sudo apt update
+sudo apt install libyaml-cpp-dev libboost-all-dev zlib1g-dev libeigen3-dev linux-libc-dev
+
+# Setup googletest
+curl -L https://github.com/google/googletest/archive/refs/tags/v1.13.0.tar.gz -o /tmp/gtest.tar.gz
+echo "bfa4b5131b6eaac06962c251742c96aab3f7aa78 /tmp/gtest.tar.gz" | sha1sum --check
+
+mkdir /tmp/gtest
+cd /tmp/gtest
+tar --strip-components=1 -xzvf ../gtest.tar.gz
+cmake -B build -S . \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr/local \
+    -DBUILD_SHARED_LIBS=ON
+cmake --build build --parallel 4
+# You may need to run sudo here
+cmake --install build
+rm -rf /tmp/gtest.tar.gz /tmp/gtest
+
+# Build colcon
+colcon build --symlink-install --packages-up-to fixposition_driver_ros2
+source install/setup.bash
+```
+At this point you can run `ros2 launch fixposition_driver_ros2 node.launch`. However, you may have issues with connecting. The system has a WiFi AP, which we can connect to in order to do some debugging. Once you connect to it, you can access a web client on `10.0.1.1` and go to `Configuration > Network > Ethernet`. Make sure that `dhcp-server` is connected and using the IP address `10.0.2.1`. If you want to use a different IP address, you'll need to edit `src/fixposition_driver/fixposition_driver_ros2/launch/config.yaml` to reflect the correct IP address. If you are able to connect to the web client on the IP address set then things should be working correctly.
+
 ## Setting up YOLO and Visual SLAM
 There are two guides we are following: YOLO[^7] and Visual SLAM[^8]. Follow these exactly as they are written to get things working.
 
@@ -126,3 +162,4 @@ There are two guides we are following: YOLO[^7] and Visual SLAM[^8]. Follow thes
 [^10]: [(link)](https://github.com/RoboSense-LiDAR/rslidar_msg)
 [^11]: [(link)](https://gist.github.com/WT-MM/5f414dfa32aca8adbf5ef8e32a391e30)
 [^12]: [(link)](https://github.com/agilexrobotics/hunter_ros2)
+[^13]: [(link)](https://docs.fixposition.com/fd/installation-and-usagex)
