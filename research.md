@@ -13,7 +13,6 @@ permalink: /research/
 <b style="color:Tomato;">[Best Paper Finalist]</b>
 <a href="/assets/files/emsoft24-curran.pdf">[PDF]</a>
 <a href="/assets/files/emsoft24-curran-poster.pdf">[Poster]</a>
-<a href="/assets/files/emsoft24-curran-slides.pdf">[Slides]</a>
 <a href="https://github.com/noah-curran/SA-MCAS">[Code]</a>
 
 <b>Noah T. Curran</b>, Minkyoung Cho, Ryan Feng, Liangkai Liu, Brian Jay Tang, Pedram MohajerAnsari, Alkim Domeke, Mert D. Pesé, and Kang G. Shin, 
@@ -23,7 +22,6 @@ permalink: /research/
 <b style="color:DarkGreen;">[Collaboration with the <a href="/avsafesec">UMich AV SafeSec Reading Group</a>]</b>
 <b style="color:Orange;">[Co-Located with CCS '24]</b>
 <a href="/assets/files/cscs24-curran.pdf">[PDF]</a>
-<a href="/assets/files/cscs24-curran-slides.pdf">[Slides]</a>
 <!-- <b style="color:DarkBlue;">[PDF not yet available]</b> -->
 
 <b>Noah T. Curran</b>, Arun Ganesan, Mert D. Pesé, and Kang G. Shin, 
