@@ -5,6 +5,13 @@ permalink: /research/
 ---
 
 ### Publications
+Brian Jay Tang, Kaiwen Sun, <b>Noah T. Curran</b>, Florian Schaub, and Kang G. Shin,
+    <i>Ads that Talk Back: Implications and Perceptions of Injecting Personalized Advertising into LLM Chatbots</i>, 
+    in the Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT '25), Vol. 9, No. 4, Article 213.  
+<!-- (Acceptance rate: 28/129 ≈ 21.7%)   -->
+<b style="color:Orange;">[Presented at UbiComp '26]</b>
+<a href="/assets/files/imwut25-tang.pdf">[PDF]</a>
+<a href="https://github.com/byron123t/chatbot-ads">[Code]</a>
 
 <b>Noah T. Curran</b>, Thomas W. Kennings, and Kang G. Shin, 
     <i>Analysis and Prevention of MCAS-Induced Crashes</i>, 
